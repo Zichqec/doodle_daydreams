@@ -67,6 +67,12 @@ emdash
 	else; "—"
 }
 
+br
+{
+    if SHIORI3FW.BalloonName == "Doodles in the Margins"; "\n"
+    else; " "
+}
+
 
 //—————————————————————————————— Right click menu links ——————————————————————————————
 

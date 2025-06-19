@@ -26,6 +26,9 @@ AdventurerTalk : nonoverlap_pool
 	"\b[6]Onward, to %(adventure)!"
 	"\b[0]Taking care of my weapon is a top priority, whatever that weapon may be. You cannot %(slayademon) with a %(rustedsword)!"
 	"\b[0]Every day is the chance to begin a new story. Mine will be %(legendary)!"
+	"\b[0]You can never be too prepared. I train every day to keep my body strong, my mind sharp, and my outfits on point."
+	"\b[2]After a tough battle, it's important to take time to heal and get back to your best. It can be challenging when it takes longer than I would like... but patience is a requirement for success!"
+	"\b[4]When fighting a dragon, the most significant thing to keep in mind is that they are intelligent creatures.\nWhether %(br)they're predators or not, they've managed to survive and grow long enough to be worthy of a quest. This is not done on strength alone! They cannot be underestimated."
 }
 
 DemureTalk : nonoverlap_pool
