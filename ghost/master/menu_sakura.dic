@@ -1,3 +1,11 @@
+OnMouseDoubleClick
+{
+	if reference5 == 0 //left click
+	{
+		OnSakuraMenu
+	}
+}
+
 SakuraMenuGreetings : nonoverlap
 {
 	"Hello."

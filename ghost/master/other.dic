@@ -30,7 +30,7 @@ OnKeyPress
 //Happens about 30 seconds after a script ends, by default, to bring them back to normal poses
 OnSurfaceRestore
 {
-	"\1\s[10]\0\s[0]"
+	"\1\s[-1]\0\s[0]"
 }
 
 //Happens when the ghost is unminimized. You can customize what surfaces are used here/if there's dialogue, but by default I've set it to just go to OnSurfaceRestore
