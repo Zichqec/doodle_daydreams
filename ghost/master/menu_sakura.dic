@@ -6,32 +6,55 @@ OnMouseDoubleClick
 	}
 }
 
-SakuraMenuGreetings : nonoverlap
-{
-	"Hello."
-	"How can I help you?"
-}
-
 //Because there is an all modifier here, you don't need to write -- between menu options
 OnSakuraMenu : all
 {
-	"\0\s[0]\b[2]\![set,autoscroll,disable]"
-	if SHIORI3FW.Eventid == "OnMouseDoubleClick"; SakuraMenuGreetings //The check here is so they won't comment if you click the back button. Remove if you prefer
+	"\C\![lock,balloonrepaint]\c"
+	"\0\s[%(CurrentPose)]\![set,autoscroll,disable]\_q"
+	if SHIORI3FW.BalloonName == "Doodles in the Margins"; "\b[4]"
+	else; "\b[2]"
 	
-	"\n\n\_q"
-	
-	"\![*]\q[Talk to me,OnAiTalk]  "
+	"\![*]\q[Daydream,OnAiTalk]  "
 	switch LastTalk == "" //Uses top option if there is a dialogue to repeat
 	{
-		"\![*]\q[Say that again,OnLastTalk]"
-		"\![*]\f[color,disable]Say that again\f[color,default]"
+		"\![*]\__q[OnLastTalk]Remember\__q"
+		"\![*]\f[color,disable]Remember\f[color,default]"
 	}
 	
 	"\n\n"
 	
-	"\![*]\q[Change talk rate,OnTalkRateMenu]\n\n"
+	"\![*]\__q[OnPoseMenu]Reposition\__q"
+	"\n\n"
+	"Random:\n"
+	"\![!]\__q[OnRandomChange,pose]Pose\__q  "
+	"\![!]\__q[OnRandomChange,clothes]Clothes\__q  "
+	"\![!]\__q[OnRandomChange,all]All\__q"
 	
-	"\![*]\q[Cancel,blank]"	
+	"\n\n"
+	
+	if SHIORI3FW.BalloonName == "Doodles in the Margins"
+	{
+		"\![*]\__q[OnBalloonMenu]Paper color\__q"
+		"\n\n"
+	}
+	
+	"Talk rate:\n"
+	_talktimes = ("Off,0","1m,60","3m,180","5m,300","10m,600","15m,900")
+	foreach _talktimes; _time
+	{
+		_sec = TOINT(_time[1])
+		_txt = _time[0]
+		switch _sec == aitalkinterval
+		{
+			"\__q[OnTalkRateChange,%(_sec)]%(_txt)\__q"
+			"\f[underline,true]\_a[OnTalkRateChange,%(_sec)]%(_txt)\_a\f[underline,default]"
+		}
+		"  "
+	}
+	"\n\n"
+	
+	"\![*]\q[Cancel,blank]"
+	"\![unlock,balloonrepaint]"
 }
 
 OnLastTalk
@@ -39,30 +62,122 @@ OnLastTalk
 	LastTalk
 }
 
-OnTalkRateMenu : all
-{	
-	//This is just setting up a label, you may need to add to it or tweak it if you change what rates are available
-	_talkrate = "Off"
-	if aitalkinterval == 30; _talkrate = "30 seconds"
-	elseif aitalkinterval == 60; _talkrate = "1 minute"
-	elseif aitalkinterval == 180; _talkrate = "3 minutes"
-	elseif aitalkinterval == 300; _talkrate = "5 minutes"
-	elseif aitalkinterval == 600; _talkrate = "10 minutes"
+OnPoseMenu : all
+{
+	"\C\![lock,balloonrepaint]\c"
+	"\0\s[%(CurrentPose)]\![set,autoscroll,disable]\_q"
+	if SHIORI3FW.BalloonName == "Doodles in the Margins"; "\b[4]"
+	else; "\b[2]"
 	
-	"\0\s[0]\b[2]\![set,autoscroll,disable]\_q"
-	"Current interval: %(_talkrate)\n\n"
+	"\f[align,center]%(emdash) Pose %(emdash)\n[0]\f[align,default]"
 	
-	"\![*]\q[Off,OnTalkRateChange,0]\n"
-	"\![*]\q[30 seconds,OnTalkRateChange,30]\n"
-	"\![*]\q[1 minute,OnTalkRateChange,60]\n"
-	"\![*]\q[3 minutes,OnTalkRateChange,180]\n"
-	"\![*]\q[5 minutes,OnTalkRateChange,300]\n"
-	"\![*]\q[10 minutes,OnTalkRateChange,600]\n"
 	"\n"
-	"\![*]\q[Back,OnSakuraMenu]  \![*]\q[Cancel,blank]"
+	
+	"\![*]"
+	switch CurrentPose == 0
+	{
+		"\__q[OnChangePose,0]Adventurer\__q"
+		"\_a[OnChangePose,0]Adventurer\_a"
+	}
+	"\n"
+	
+	"\![*]"
+	switch CurrentPose == 1
+	{
+		"\__q[OnChangePose,1]Demure\__q"
+		"\_a[OnChangePose,1]Demure\_a"
+	}
+	"\n"
+	
+	"\![*]"
+	switch CurrentPose == 2
+	{
+		"\__q[OnChangePose,2]Sleepy\__q"
+		"\_a[OnChangePose,2]Sleepy\_a"
+	}
+	"\n"
+	"\n"
+	
+	"\![*]\__q[OnSakuraMenu]Back\__q\n[0]\f[align,right]\__q[blank]Close\__q"
+	"\![unlock,balloonrepaint]"
+}
+
+OnChangePose
+{
+	CurrentPose = TOINT(reference0)
+	LastTalk = ""
+	OnPoseMenu
+}
+
+OnRandomChange
+{
+	if reference0 == "pose" || reference0 == "all"
+	{
+		_num = CurrentPose
+		while _num == CurrentPose
+		{
+			_num = RAND(3) //3 poses, 0-2
+		}
+		CurrentPose = _num
+		LastTalk = ""
+	}
+	if reference0 == "clothes" || reference0 == "all"
+	{
+		//TODO randomize dressups here
+	}
+	OnSakuraMenu
+}
+
+OnBalloonMenu : all
+{
+	"\C\![lock,balloonrepaint]\c"
+	"\0\s[%(CurrentPose)]\![set,autoscroll,disable]\_q"
+	if SHIORI3FW.BalloonName == "Doodles in the Margins"; "\b[4]"
+	else; "\b[2]"
+	
+	"\f[align,center]%(emdash) Paper color %(emdash)\n[0]\f[align,default]"
+	"\n"
+	
+	_colors = ("Red,3","Orange,4","Yellow,5","Green,6","Cyan,7","Blue,0","Purple,1","Pink,2")
+	
+	foreach _colors; _color
+	{
+		"\![*]"
+		switch TOINT(_color[1]) == BalloonColor
+		{
+			"\__q[OnChangeBalloonColor,%(_color[1])]%(_color[0])\__q"
+			"\_a[OnChangeBalloonColor,%(_color[1])]%(_color[0])\_a"
+		}
+		"\n"
+	}
+	"\n"
+	
+	"\f[align,center]\![*]\__q[OnChangeBalloonColor,random]Random\__q\n\f[align,default]\n"
+	
+	"\![*]\__q[OnSakuraMenu]Back\__q\n[0]\f[align,right]\__q[blank]Close\__q"
+	"\![unlock,balloonrepaint]"
+}
+
+OnChangeBalloonColor
+{
+	if reference0 == "random"
+	{
+		_num = BalloonColor
+		while _num == BalloonColor
+		{
+			_num = RAND(8) //8 colors, 0-7
+		}
+		BalloonColor = _num
+	}
+	else
+	{
+		BalloonColor = TOINT(reference0)
+	}
+	OnBalloonMenu
 }
 
 OnTalkRateChange
 {
 	aitalkinterval = TOINT(reference0)
+	OnSakuraMenu
 }

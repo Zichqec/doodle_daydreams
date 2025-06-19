@@ -1,13 +1,17 @@
 OnFirstBoot
 {
-	stroke = 0
 	LastTalk = ""
+	CurrentPose = 0
+	BalloonColor = 0
 	
-	"\1\s[-1]\0\s[0]Firstboot"
+	"\1\s[-1]\0\s[%(CurrentPose)]Firstboot"
 }
 
 OnInitialize
 {
+	if !ISVAR("CurrentPose"); CurrentPose = 0
+	if !ISVAR("BalloonColor"); BalloonColor = 0
+	
 	if reference0 != "reload" //For things you want to reset EXCEPT when just reloading
 	{
 		LastTalk = ""
@@ -16,15 +20,26 @@ OnInitialize
 
 OnBoot
 {
-	"\1\s[-1]\0\s[0]"
+	"\1\s[-1]\0\s[%(CurrentPose)]"
 	--
-	"Boot"
+	"\f[italic,true]" + BootTalk + "\f[italic,default]"
 }
 
 OnClose
 {
-	"\0\s[0]Farewell."
-	"\0\s[0]Goodbye."
+	"\0\s[%(CurrentPose)]"
+	--
+	"\f[italic,true]" + CloseTalk + "\f[italic,default]"
 	--
 	"\w8\w8\-"
+}
+
+BootTalk : nonoverlap
+{
+	"Hello"
+}
+
+CloseTalk : nonoverlap
+{
+	"Goodbye"
 }

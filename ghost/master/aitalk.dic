@@ -4,14 +4,34 @@ OnAiTalk
 	{
 		LastTalk = ChainTalk
 	}
-	else
+	elseif CurrentPose == 1
 	{
-		LastTalk = RandomTalk
+		LastTalk = DemureTalk
 	}
+	elseif CurrentPose == 2
+	{
+		LastTalk = SleepyTalk
+	}
+	else //0
+	{
+		LastTalk = AdventurerTalk
+	}
+	
+	LastTalk = "\0\s[%(CurrentPose)]\f[italic,true]" + LastTalk + "\f[italic,default]"
 	LastTalk
 }
 
-RandomTalk : nonoverlap_pool
+AdventurerTalk : nonoverlap_pool
 {
-	"Randomtalk"
+	"\b[0]Adventurer"
+}
+
+DemureTalk : nonoverlap_pool
+{
+	"\b[0]Demure"
+}
+
+SleepyTalk : nonoverlap_pool
+{
+	"\b[0]Sleepy... zzz......."
 }
