@@ -1,0 +1,118 @@
+ademon
+{
+	"a demon"
+	"a dragon"
+	"a chimera"
+	"the gorgon"
+	"hellhounds"
+	"the upcoming deadline"
+	"a leviathan"
+	"the behemoth"
+	"a cockatrice"
+	"a basilisk"
+	"a devil"
+	"the kraken"
+	"the manticore"
+}
+
+adventure
+{
+	"adventure"
+	"destiny"
+	"danger"
+	"peril"
+	"fortune"
+	"heroics"
+	"save the day"
+	"rescue the village"
+	"slay the monster"
+	"make history"
+}
+
+aunicorn
+{
+	"a unicorn"
+	"a dragon"
+	"a wolf"
+	"a pegasus"
+	"the carbuncle"
+	"the phoenix"
+	"your work-life balance"
+	"a griffin"
+	"the cerberus"
+	"the sphinx"
+}
+
+king
+{
+	"king"
+	"queen"
+	"monarchy"
+	"prince"
+	"princess"
+	"emperor"
+	"empress"
+	"president"
+	"baron"
+	"count"
+	"countess"
+	"duke"
+	"duchess"
+	"mayor"
+	"governor"
+	"marquess"
+	"commander"
+	"captain"
+	"chief"
+	"regional manager"
+}
+
+legendary
+{
+	"legendary"
+	"mythical"
+	"fantastical"
+	"inspiring to all"
+	"infamous"
+	"unforgettable"
+	"known throughout the land"
+	"passed down for generations"
+	"a tale which strikes fear into the heart of my enemies"
+	"a warning to those that come after me"
+}
+
+rustedsword
+{
+	"rusted sword"
+	"chipped dagger"
+	"dented hammer"
+	"frayed paintbrush"
+	"cracked clipboard"
+	"wilted bouquet"
+	"broken pencil"
+	"flattened ball"
+	"dull axe"
+	"damp book"
+}
+
+slayademon
+{
+	"slay %(ademon)"
+	"serve the %(king)"
+	"tame %(aunicorn)"
+	"save %(thevillage)"
+}
+
+thevillage
+{
+	"the village"
+	"the kingdom"
+	"the city"
+	"a %(king)"
+	"your companions"
+	"the world"
+	"a project"
+	"the countryside"
+	"the universe"
+	"the corner store"
+}

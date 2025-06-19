@@ -23,7 +23,9 @@ OnAiTalk
 
 AdventurerTalk : nonoverlap_pool
 {
-	"\b[0]Adventurer"
+	"\b[6]Onward, to %(adventure)!"
+	"\b[0]Taking care of my weapon is a top priority, whatever that weapon may be. You cannot %(slayademon) with a %(rustedsword)!"
+	"\b[0]Every day is the chance to begin a new story. Mine will be %(legendary)!"
 }
 
 DemureTalk : nonoverlap_pool
