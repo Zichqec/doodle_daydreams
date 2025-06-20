@@ -69,7 +69,7 @@ OnPoseMenu : all
 	if SHIORI3FW.BalloonName == "Doodles in the Margins"; "\b[4]"
 	else; "\b[2]"
 	
-	"\f[align,center]%(emdash) Pose %(emdash)\n[0]\f[align,default]"
+	"\f[align,center]%(emdash)\_w[0] Pose %(emdash)\n[0]\f[align,default]"
 	
 	"\n"
 	
@@ -111,6 +111,7 @@ OnChangePose
 
 OnRandomChange : all
 {
+	"\![lock,repaint]" //This doesn't quite work how i want since it only applies to animations and not surfaces...
 	if reference0 == "pose" || reference0 == "both"
 	{
 		_num = CurrentPose
@@ -120,6 +121,7 @@ OnRandomChange : all
 		}
 		CurrentPose = _num
 		LastTalk = ""
+		"\s[%(CurrentPose)]"
 	}
 	if reference0 == "clothes" || reference0 == "both"
 	{
@@ -162,6 +164,7 @@ OnRandomChange : all
 		if RAND(100) >= _skipchance; "\![bind,Handheld,%(_newhandheld),1]"
 		if RAND(100) >= _skipchance; "\![bind,Extra,%(_newextra),1]"
 	}
+	"\![unlock,repaint]"
 	OnSakuraMenu
 }
 
@@ -172,7 +175,7 @@ OnBalloonMenu : all
 	if SHIORI3FW.BalloonName == "Doodles in the Margins"; "\b[4]"
 	else; "\b[2]"
 	
-	"\f[align,center]%(emdash) Paper color %(emdash)\n[0]\f[align,default]"
+	"\f[align,center]%(emdash)\_w[0] Paper color %(emdash)\n[0]\f[align,default]"
 	"\n"
 	
 	_colors = ("Red,3","Orange,4","Yellow,5","Green,6","Cyan,7","Blue,0","Purple,1","Pink,2")

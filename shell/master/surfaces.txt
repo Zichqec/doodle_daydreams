@@ -1,4 +1,3 @@
-
 descript
 {
 	version,1
@@ -7,14 +6,12 @@ descript
 //—————————————————————————————— Sakura surfaces ——————————————————————————————
 
 //Empty surface definitions to block notices - remove surfaces from here as we add them (but nbd if we forget)
-surface1-2,10
+surface10
 {	
 }
 
 surface0
 {
-	collision0,0,0,130,65,head
-	
 	//Adventurere yay!!!!
 	//bottoms
 	animation0.interval,bind
@@ -75,6 +72,138 @@ surface0
 	animation203.interval,bind
 	animation203.pattern0,overlay,503,0,0,0
 	
+	
+	
+}
+
+surface1
+{
+	//Demure yay!!!!
+	//bottoms
+	animation0.interval,bind
+	animation0.pattern0,overlay,1100,0,0,0
+	//advent
+	animation1.interval,bind
+	animation1.pattern0,overlay,1101,0,0,0
+	//demure
+	animation2.interval,bind
+	animation2.pattern0,overlay,1102,0,0,0
+	//sleepy
+	animation3.interval,bind
+	animation3.pattern0,overlay,1103,0,0,0
+	
+	//tops
+	animation50.interval,bind
+	animation50.pattern0,overlay,1200,0,0,0
+	//advent
+	animation51.interval,bind
+	animation51.pattern0,overlay,1201,0,0,0
+	//demure
+	animation52.interval,bind
+	animation52.pattern0,overlay,1202,0,0,0
+	//sleepy
+	animation53.interval,bind
+	animation53.pattern0,overlay,1203,0,0,0
+	
+	//handheld
+	//advent
+	animation101.interval,bind
+	animation101.pattern0,overlay,1301,0,0,0
+	//demure
+	animation102.interval,bind
+	animation102.pattern0,overlay,1302,0,0,0
+	//sleepy
+	animation103.interval,bind
+	animation103.pattern0,overlay,1303,0,0,0
+	
+	//heat
+	//advent
+	animation151.interval,bind
+	animation151.pattern0,overlay,1401,0,0,0
+	//demure 
+	animation152.interval,bind
+	animation152.pattern0,overlay,1402,0,0,0
+	//sleepy 
+	animation153.interval,bind
+	animation153.pattern0,overlay,1403,0,0,0
+	
+	//extra
+	//advent
+	animation201.interval,bind
+	animation201.pattern0,overlay,1501,0,0,0
+	//demure 
+	animation202.interval,bind
+	animation202.pattern0,overlay,1502,0,0,0
+	//sleepy 
+	animation203.interval,bind
+	animation203.pattern0,overlay,1503,0,0,0
+	animation203.option,background
+	
+	
+	
+}
+
+surface2
+{
+	//Sleepy yay!!!!
+	//bottoms
+	animation0.interval,bind
+	animation0.pattern0,overlay,2100,0,0,0
+	//advent
+	animation1.interval,bind
+	animation1.pattern0,overlay,2101,0,0,0
+	//demure
+	animation2.interval,bind
+	animation2.pattern0,overlay,2102,0,0,0
+	//sleepy
+	animation3.interval,bind
+	animation3.pattern0,overlay,2103,0,0,0
+	
+	//tops
+	animation50.interval,bind
+	animation50.pattern0,overlay,2200,0,0,0
+	//advent
+	animation51.interval,bind
+	animation51.pattern0,overlay,2201,0,0,0
+	//demure
+	animation52.interval,bind
+	animation52.pattern0,overlay,2202,0,0,0
+	//sleepy
+	animation53.interval,bind
+	animation53.pattern0,overlay,2203,0,0,0
+	
+	//handheld
+	//advent
+	animation101.interval,bind
+	animation101.pattern0,overlay,2301,0,0,0
+	//demure
+	animation102.interval,bind
+	animation102.pattern0,overlay,2302,0,0,0
+	//sleepy
+	animation103.interval,bind
+	animation103.pattern0,overlay,2303,0,0,0
+	
+	//heat
+	//advent
+	animation151.interval,bind
+	animation151.pattern0,overlay,2401,0,0,0
+	//demure 
+	animation152.interval,bind
+	animation152.pattern0,overlay,2402,0,0,0
+	//sleepy 
+	animation153.interval,bind
+	animation153.pattern0,overlay,2403,0,0,0
+	
+	//extra
+	//advent
+	animation201.interval,bind
+	animation201.pattern0,overlay,2501,0,0,0
+	//demure 
+	animation202.interval,bind
+	animation202.pattern0,overlay,2502,0,0,0
+	//sleepy 
+	animation203.interval,bind
+	animation203.pattern0,overlay,2503,0,0,0
 	
 	
 }
