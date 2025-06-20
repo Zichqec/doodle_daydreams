@@ -489,6 +489,7 @@ pegasus
 	"broom"
 	"giant bee"
 	"dolphin"
+	"gryphon"
 }
 
 pillow
@@ -529,4 +530,94 @@ oatmeal
 	"vinegar"
 	"liquid chocolate"
 	"ice cream"
+}
+
+musicnotes
+{
+	"music notes"
+	"shooting stars"
+	"flying worms"
+	"fluttering teeth"
+	"soundwaves"
+	"rainbows"
+	"bubbles"
+	"gumdrops"
+	"candy canes"
+	"stripes"
+	"feathers"
+	"polka dots"
+}
+
+abracelet
+{
+	"a bracelet"
+	"a necklace"
+	"a cake"
+	"a blanket"
+	"a handbag"
+	"a sword"
+	"a shield"
+	"an ornament"
+	"a decorative plate"
+	"a diorama"
+	"a movie"
+	"a series of cute photos"
+	"tons of money"
+}
+
+scoopsoficecream
+{
+	"scoops of ice cream"
+	"airborne whipped cream"
+	"big fluffy bunnies that live in the sky"
+	"sky whales"
+	"big puffs of cotton candy that would be super delicious if we could find a way to bring it down here"
+	"made of cloud"
+	"just painted in, they're not real"
+	"congealed unicorn dust"
+	"where the dragons live"
+	"not, water can't fly"
+	"not, if water was in the sky it just would rain down"
+	"some kind of giant pastry that humanity has yet to discover"
+	"alien outposts that they use to monitor us"
+}
+
+thosegumdrops
+{
+	"those gumdrops"
+	"the licorice hanging from the trees"
+	"the candy canes that line this path"
+	"the jello lake"
+	"the fruits hanging from the candy trees"
+	"those hard candies that have been sitting in the drawer for like 1000 years"
+	"my calculator"
+	"the buttons in that jar"
+	"my coin collection"
+	"the cake I made for the party"
+}
+
+bologna
+{
+	"bologna"
+	"beets"
+	"berries"
+	"black-eyed peas"
+	"brisket"
+	"bisque"
+	"brake fluid"
+	"beef"
+	"bread rolls"
+}
+
+meow
+{
+	"meow"
+	"bark"
+	"baa"
+	"hoo hoo... hoo hoo"
+	"chirp chirp"
+	"cluck cluck"
+	"purr"
+	"hiss"
+	"ribbit"
 }
