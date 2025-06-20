@@ -73,6 +73,31 @@ br
     else; " "
 }
 
+OnNotifyDressupInfo
+{
+	//[character ID, category name, part name, option, on-1/off-0, thumbnail path] 
+	Dressups.Top = IARRAY
+	Dressups.Bottom = IARRAY
+	Dressups.Hat = IARRAY
+	Dressups.Handheld = IARRAY
+	Dressups.Extra = IARRAY
+	
+	Dressups.Current = IARRAY
+	
+	foreach reference; _dressup
+	{
+		_dressup = SPLIT(_dressup,C_BYTE1)
+		
+		if _dressup[1] == "Top"; Dressups.Top ,= _dressup[2]
+		if _dressup[1] == "Bottom"; Dressups.Bottom ,= _dressup[2]
+		if _dressup[1] == "Hat"; Dressups.Hat ,= _dressup[2]
+		if _dressup[1] == "Handheld"; Dressups.Handheld ,= _dressup[2]
+		if _dressup[1] == "Extra"; Dressups.Extra ,= _dressup[2]
+		
+		if _dressup[4] == "1"; Dressups.Current ,= "%(_dressup[1]),%(_dressup[2])"
+	}
+}
+
 
 //—————————————————————————————— Right click menu links ——————————————————————————————
 

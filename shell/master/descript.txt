@@ -19,11 +19,11 @@ sakura.bindgroup53.name,Top,PJ Top
 
 //Bottoms
 sakura.bindgroup0.default,1
-sakura.bindoption0.group,Bottoms,mustselect
-sakura.bindgroup0.name,Bottoms,Boy Shorts
-sakura.bindgroup1.name,Bottoms,Adventure Boots
-sakura.bindgroup2.name,Bottoms,Poofy Skirt
-sakura.bindgroup3.name,Bottoms,PJ Bottoms
+sakura.bindoption0.group,Bottom,mustselect
+sakura.bindgroup0.name,Bottom,Boy Shorts
+sakura.bindgroup1.name,Bottom,Adventure Boots
+sakura.bindgroup2.name,Bottom,Poofy Skirt
+sakura.bindgroup3.name,Bottom,PJ Bottoms
 
 //Hat
 sakura.bindgroup151.name,Hat,Helmet

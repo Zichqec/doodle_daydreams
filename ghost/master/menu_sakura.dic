@@ -109,7 +109,7 @@ OnChangePose
 	OnPoseMenu
 }
 
-OnRandomChange
+OnRandomChange : all
 {
 	if reference0 == "pose" || reference0 == "all"
 	{
@@ -123,7 +123,44 @@ OnRandomChange
 	}
 	if reference0 == "clothes" || reference0 == "all"
 	{
-		//TODO randomize dressups here
+		_currenttop = ""
+		_currentbottom = ""
+		_currenthat = ""
+		_currenthandheld = ""
+		_currentextra = ""
+		
+		//This assumes we will never use the multiple option, as a note. May need to adjust
+		foreach Dressups.Current; _dressup
+		{
+			if _dressup[0] == "Top"; _currenttop = _dressup[1]
+			if _dressup[0] == "Bottom"; _currentbottom = _dressup[1]
+			if _dressup[0] == "Hat"; _currenthat = _dressup[1]
+			if _dressup[0] == "Handheld"; _currenthandheld = _dressup[1]
+			if _dressup[0] == "Extra"; _currentextra = _dressup[1]
+		}
+		
+		_newtop = ANY(Dressups.Top)
+		_newbottom = ANY(Dressups.Bottom)
+		_newhat = ANY(Dressups.Hat)
+		_newhandheld = ANY(Dressups.Handheld)
+		_newextra = ANY(Dressups.Extra)
+		
+		//Remove old binds
+		"\![bind,Top,,0]"
+		"\![bind,Bottom,,0]"
+		"\![bind,Hat,,0]"
+		"\![bind,Handheld,,0]"
+		"\![bind,Extra,,0]"
+		
+		//Add new ones
+		"\![bind,Top,%(_newtop),1]"
+		"\![bind,Bottom,%(_newbottom),1]"
+		
+		//25% chance to skip each of these
+		_skipchance = 25
+		if RAND(100) >= _skipchance; "\![bind,Hat,%(_newhat),1]"
+		if RAND(100) >= _skipchance; "\![bind,Handheld,%(_newhandheld),1]"
+		if RAND(100) >= _skipchance; "\![bind,Extra,%(_newextra),1]"
 	}
 	OnSakuraMenu
 }
