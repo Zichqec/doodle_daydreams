@@ -16,8 +16,12 @@ OnAiTalk
 	{
 		LastTalk = AdventurerTalk
 	}
-	
-	LastTalk = "\0\s[%(CurrentPose)]\f[italic,true]" + LastTalk + "\f[italic,default]"
+	_firsttags = "\0\s[%(CurrentPose)]\f[italic,true]"
+	if CurrentPose == 2 //Sleepy
+	{
+		_firsttags += "\![set,balloonwait,1.5]"
+	}
+	LastTalk = _firsttags + LastTalk + "\f[italic,default]"
 	LastTalk
 }
 
@@ -43,4 +47,5 @@ DemureTalk : nonoverlap_pool
 SleepyTalk : nonoverlap_pool
 {
 	"\b[0]Sleepy... zzz......."
+	"\b[0]test test test test test"
 }
