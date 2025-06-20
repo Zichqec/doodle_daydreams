@@ -113,6 +113,24 @@ avampire
 	"a zombie"
 }
 
+brokeavase
+{
+	"broke a vase"
+	"spilled tea"
+	"ripped their dress"
+	"ripped the %(king)'s dress"
+	"startled the orchestra"
+	"attracted a dragon"
+	"started a fire"
+	"broke a window"
+	"scared all of the maids and butlers out of the building"
+	"completely ruined the hors d'oeuvres"
+	"knocked over the fondue fountain"
+	"turned into a bird"
+	"fell asleep"
+	"didn't even say sorry"
+}
+
 butterflies
 {
 	"butterflies"
@@ -148,6 +166,21 @@ chocolate
 	"raspberry"
 	"butterscotch"
 	"matcha"
+}
+
+competitivebouquettossing
+{
+	"competitive bouquet tossing"
+	"weapon collection"
+	"super snuggly blanket"
+	"shoes"
+	"dragonriding archery"
+	"bug wall"
+	"dirt corner"
+	"rock"
+	"rival that's doomed to a tragic end before we can resolve anything between us"
+	"bottomless stomach"
+	"artficial skin"
 }
 
 died
@@ -238,6 +271,21 @@ embroidery
 	"basket weaving"
 }
 
+felldownthestairs
+{
+	"fell down the stairs"
+	"tried to climb onto a chandelier, but slipped when they burnt themselves on a candle"
+	"danced too enthusiastically, to the point that a shoe flung off their foot"
+	"got really, really sleepy"
+	"talked to rowdy peer-pressuring teens"
+	"snuck %(ademon) into the ballroom"
+	"tried to sneak their way into parts of the building they weren't supposed to be in, but got lost"
+	"brought all of their pets, which was entirely too many animals for a party,"
+	"pretended to get amnesia in order to get out of some small talk that was going for entirely too long"
+	"cheated on their fiancé on the balcony"
+	"called their partner a fat goat"
+}
+
 hotchocolate
 {
 	"hot chocolate"
@@ -320,6 +368,20 @@ slayademon
 	"serve the %(king)"
 	"tame %(aunicorn)"
 	"save %(thevillage)"
+}
+
+socialacuity
+{
+	"social acuity"
+	"flawless fashion sense"
+	"mesmerizing dance moves"
+	"vast social network"
+	"perfect memory of every name and face I meet"
+	"psychic powers"
+	"curse"
+	"magic piggybank that always has enough coin for %(asnack), no matter how much I spend"
+	"bragging abilities"
+	"large number of enemies that want me dead"
 }
 
 thevillage
