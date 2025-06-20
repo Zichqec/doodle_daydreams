@@ -708,3 +708,55 @@ atreasurechest
 	"another bend"
 	"an escape route from the monster on your tail"
 }
+
+thecliffedge
+{
+	"the cliff edge"
+	"the edge of the brook, the rocks are slippery"
+	"that cave, %(avampire) lives there"
+	"that nest, no telling when the mother will return to feed her young"
+	"%(thatchest), it might be a mimic"
+	"the market, there are pickpockets around"
+	"the dragon's claws, they're sharp"
+}
+
+thatchest
+{
+	"that chest"
+	"that ancient scroll"
+	"that suit of armor"
+	"that intricate floor tile"
+	"that wardrobe"
+	"that freshly-baked pie"
+}
+
+staylightonyourfeet
+{
+	"stay light on your feet"
+	"use the sun to your advantage"
+	"always circle to the left"
+	"run as fast as you can in the other direction"
+	"tuck and roll"
+	"spread out your arms to make yourself look big, that'll scare it off"
+	"don't let it see you until you've got a clear shot"
+	"bring a friend"
+	"set it on fire"
+	"bribe the town guard into helping%(emdash) strength in numbers is a must"
+	"ask it to be your friend, then betray it when it lets its guard down"
+}
+
+theblacksmith
+{
+	"the blacksmith for an upgrade"
+	"the general store to replenish my supplies"
+	"the apothecary to replenish my supplies"
+	"the fletcher to replenish my supplies"
+	"the market to replenish my food stocks"
+	"the hair parlor to rejuvenate my radiant looks"
+	"the tailor to fix the holes in my shirt"
+	"the cobbler to get a new pair of boots"
+	"the tavern to start spreading word of my accomplishment"
+	"the guild to get a new quest"
+	"the spa to get those knots out of my shoulders"
+	"the moneylender to pay back my dues"
+}

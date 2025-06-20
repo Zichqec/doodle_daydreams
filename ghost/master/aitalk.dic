@@ -46,6 +46,12 @@ AdventurerTalk : nonoverlap_pool
 	"\b[2]Don't forget to watch the skies. Aerial monsters will snatch you in an instant.\n\n Once you're off the ground, you're in \f[italic,true]their\f[italic,default] domain, and a defeat is sure to follow."
 	"\b[2]Before you take a job from the local town, be sure to find out if other adventurers before you have attempted it and perished!\n\n Learn from their mistakes, so you don't make the same ones."
 	"\b[0]When facing down a cyclops, the most important thing to remember is this:\n\n A lack of depth perception doesn't matter when its club is the size of a tree!"
+	"\b[6]Off on another adventure! What grand tale awaits?"
+	"\b[6]There, behind the rocks! %(Capitalize(avampire))!"
+	"\b[6]Be careful near %(thecliffedge)!"
+	"\b[6]The trick to defeating %(avampire)? %(Capitalize(staylightonyourfeet))!"
+	"\b[0]Another job well done! Now it's off to %(theblacksmith)!"
+	"\b[6]Walk confidently, it deters monsters and thieves alike!"
 }
 
 DemureTalk : nonoverlap_pool
