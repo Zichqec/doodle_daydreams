@@ -145,6 +145,13 @@ GroupDigits
 	_output
 }
 
+On_getaistate : all
+{
+	"%(OUTPUTNUM('AdventurerTalk')),%(OUTPUTNUM('DemureTalk')),%(OUTPUTNUM('SleepyTalk'))"
+	C_BYTE1
+	"Adventurer,Demure,Sleepy"
+}
+
 
 //—————————————————————————————— Right click menu links ——————————————————————————————
 
