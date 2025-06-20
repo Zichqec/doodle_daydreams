@@ -2,9 +2,40 @@ charset,UTF-8
 type,shell
 
 name,Default Shell
-craftman,
-craftmanw,
+craftman,Kipali
+craftmanw,Kipali
 craftmanurl,
 
 seriko.alignmenttodesktop,free
 seriko.use_self_alpha,1
+
+//Tops
+sakura.bindgroup50.default,1
+sakura.bindoption50.group,Top,mustselect
+sakura.bindgroup50.name,Top,Sports Bra
+sakura.bindgroup51.name,Top,Pirate Shirt
+sakura.bindgroup52.name,Top,Poofy Shirt
+sakura.bindgroup53.name,Top,PJ Top
+
+//Bottoms
+sakura.bindgroup0.default,1
+sakura.bindoption0.group,Bottoms,mustselect
+sakura.bindgroup0.name,Bottoms,Boy Shorts
+sakura.bindgroup1.name,Bottoms,Adventure Boots
+sakura.bindgroup2.name,Bottoms,Poofy Skirt
+sakura.bindgroup3.name,Bottoms,PJ Bottoms
+
+//Hat
+sakura.bindgroup151.name,Hat,Helmet
+sakura.bindgroup152.name,Hat,Tiara
+sakura.bindgroup153.name,Hat,PJ Hat
+
+//Hand
+sakura.bindgroup101.name,Handheld,Sword
+sakura.bindgroup102.name,Handheld,Bouquet
+sakura.bindgroup103.name,Handheld,Pillow
+
+//Extra
+sakura.bindgroup201.name,Extra,Pauldron
+sakura.bindgroup202.name,Extra,Sash
+sakura.bindgroup203.name,Extra,Blanket
