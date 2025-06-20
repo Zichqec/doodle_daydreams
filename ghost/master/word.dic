@@ -183,3 +183,169 @@ wallscums
 	"bones"
 	"oozes"
 }
+
+ducky
+{
+	"ducky"
+	"blankie"
+	"pillow"
+	"bunbun"
+	"dragon"
+	"heatie pad"
+	"rice bag"
+	"bear"
+	"kitty-cat"
+	"sink"
+	"midnight veggie burger snack"
+	"legs"
+	"toes"
+	"beans"
+	"ants"
+	"bed, I'm still using it"
+	"white noise machine"
+	"humidifier"
+	"emotional support mannequin that stands in the corner all night"
+	"rugs"
+	"notebook"
+	"secret cookie stash"
+	"roof, it keeps the rain out"
+	"water, I'll dehydrate"
+	"hairbrush"
+	"decorative skull collection"
+	"glasses"
+	"sunglasses"
+	"umbrella"
+	"bedbugs... wait, actually you can have them"
+}
+
+raspberry
+{
+	"raspberry"
+	"blueberry"
+	"ice cream"
+	"stardust"
+	"icicle"
+	"mint"
+	"soggy"
+	"cilantro"
+	"melon"
+	"cucumber"
+	"cucumber melon"
+	"sweet pea"
+	"caramel"
+}
+
+yellow
+{
+	"yellow"
+	"green"
+	"purple"
+	"glowing"
+	"full of stars even though it's daytime"
+	"falling away"
+	"going to sleep"
+	"making friends"
+	"getting stronger"
+	"back"
+	"healing"
+	"full of clouds"
+	"happy"
+}
+
+popsicles
+{
+	"popsicles"
+	"movie tickets"
+	"brownies"
+	"calzones"
+	"one of those giant pizza slices"
+	"haircuts"
+	"fire extinguishers"
+	"lollipops"
+	"tanktops"
+	"inner tubes"
+	"hot dogs"
+	"hats"
+	"swords"
+	"ice cream cones"
+}
+
+honey
+{
+	"honey"
+	"spring water"
+	"motor oil"
+	"bird spit"
+	"dairy milk"
+	"fish oil"
+	"fruit punch"
+	"essential oil"
+	"gasoline"
+	"horse sweat"
+	"pond water"
+	"nail polish remover"
+	"rubbing alcohol"
+	"egg whites"
+	"coffee"
+	"liquid %(chocolate)"
+	"lemon essence"
+	"virgin olive oil"
+	"coffee extract"
+	"banana purée"
+	"concentrated orange juice"
+	"grape juice"
+	"artificially flavored drink"
+	"soda"
+	"lemonade"
+	"cooking oil"
+	"gravy"
+	"marinara sauce"
+	"chili marmalade"
+	"liquid cheese"
+	"liquid nitrogen"
+	"veggie broth"
+	"mercury"
+	"maple syrup... Strange for a birch tree, isn't it"
+}
+
+pegasus
+{
+	"pegasus"
+	"unicorn"
+	"magical flying carpet"
+	"bicycle"
+	"hand-crafted wings made of paper feathers"
+	"flying cow"
+	"floaty pillow"
+	"flying skateboard"
+	"awesome rollerblades"
+	"giant star friend that carries me everywhere"
+	"broom"
+	"giant bee"
+	"dolphin"
+}
+
+pillow
+{
+	"pillow"
+	"blankie"
+	"kitty"
+	"too warm"
+	"itchy"
+	"sleepy"
+	"cozy"
+	"too cold"
+	"need to roll over"
+	"maybe I should get up... Nah"
+}
+
+eatinggrub
+{
+	"eating grub"
+	"scrub scrub scrub"
+	"in a shrub"
+	"on a sub"
+	"like to snub"
+	"in a club"
+	"with a stub"
+}

@@ -15,10 +15,16 @@ OnTranslate
 		_talk = REPLACE(_talk,"\b[4]","\b[%(BalloonColor)4]")
 		_talk = REPLACE(_talk,"\b[6]","\b[%(BalloonColor)6]")
 	}
+	else
+	{
+		_talk = REPLACE(_talk,"\b[6]","\b[6,--fallback=0]")
+	}
 	
 	if "\![no-autopause]" !_in_ _talk
 	{
-		_talk = REPLACE(_talk,"... ",".\w8.\w8.\w8\w8 ")
+		_talk = REPLACE(_talk,"... ",".\w4.\w4.\w8\w8 ")
+		_talk = REPLACE(_talk,"...? ",".\w4.\w4.\w4?\w8\w8 ")
+		_talk = REPLACE(_talk,"...! ",".\w4.\w4.\w4!\w8\w8 ")
 		_talk = REPLACE(_talk,". ",".\w8\w8 ")
 		_talk = REPLACE(_talk,", ",",\w4 ")
 		_talk = REPLACE(_talk,": ",":\w8 ")
@@ -73,6 +79,11 @@ br
     else; " "
 }
 
+Capitalize
+{
+	TOUPPER(SUBSTR(_argv[0],0,1)) + ERASE(_argv[0],0,1)
+}
+
 OnNotifyDressupInfo
 {
 	//[character ID, category name, part name, option, on-1/off-0, thumbnail path] 
@@ -96,6 +107,42 @@ OnNotifyDressupInfo
 		
 		if _dressup[4] == "1"; Dressups.Current ,= "%(_dressup[1]),%(_dressup[2])"
 	}
+}
+
+//Add commas for a nice display of big numbers
+GroupDigits
+{
+	_str = TOSTR(_argv[0])
+	
+	_num = ""
+	_decimalpoint = ""
+	if "." _in_ _str
+	{
+		_decimalpoint = _str[1,"."]
+		_num = _str[0,"."]
+	}
+	else; _num = _str
+	
+	_len = STRLEN(_num)
+	
+	
+	_threes = _len / 3
+	_excess = _len % 3
+	
+	_output = ""
+	_i = 0
+	_output += SUBSTR(_num,0,_excess)
+	_i += _excess
+	while _i < _len
+	{
+		if _output != ""; _output += ","
+		_output += SUBSTR(_num,_i,3)
+		_i += 3
+	}
+	
+	if "." _in_ _str; _output += "." + _decimalpoint
+	
+	_output
 }
 
 

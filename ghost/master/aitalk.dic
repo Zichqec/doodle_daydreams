@@ -35,8 +35,8 @@ AdventurerTalk : nonoverlap_pool
 	"\b[4]When fighting a dragon, the most significant thing to keep in mind is that they are intelligent creatures.\nWhether %(br)they're predators or not, they've managed to survive and grow long enough to be worthy of a quest. This is not done on strength alone! They cannot be underestimated."
 	"\b[2]An adventurer always needs to be on guard. You think that's %(achest)?\n\nWrong! It's a mimic, and it just %(killedyou)."
 	"\b[4]Bad breath can be deadly on the road. Dire boars don't even know what a toothbrush is. \n\nImagine rolling over at night and getting hot, stinky breath all over your face. You'd be done for! Dead on the spot! It happened to me once."
-	"\b[2]Delving into dungeons can take longer than you expect. Sometimes long enough that you need to get creative with your meals. Be careful, though! Not all %(wallscums) are safe..."
-	"\b[4]There are a lot of interesting people on the road. You can learn more than you would expect from helping out wherever you can. \n\nStill, it helps if you can tell when you're dealing with %(avampire). \n\nThings can get awkward otherwise..."
+	"\b[2]Delving into dungeons can take longer than you expect. Sometimes long enough that you need to get creative with your meals. Be careful, though! Not all %(wallscums) are safe... "
+	"\b[4]There are a lot of interesting people on the road. You can learn more than you would expect from helping out wherever you can. \n\nStill, it helps if you can tell when you're dealing with %(avampire). \n\nThings can get awkward otherwise... "
 }
 
 DemureTalk : nonoverlap_pool
@@ -46,6 +46,18 @@ DemureTalk : nonoverlap_pool
 
 SleepyTalk : nonoverlap_pool
 {
-	"\b[0]Sleepy... zzz......."
-	"\b[0]test test test test test"
+	"\b[6]Honk shoo... Don't take my %(ducky)... "
+	"\b[6]Nooo... stop poking me... you're a tree, you don't even have fingers... "
+	"\b[6]%(Capitalize(raspberry)) cotton candy? For me...? Don't mind if I do... "
+	"\b[6]Look outside, the sky is %(yellow)... That's a good sign... Zzz... "
+	"\b[6]Hey... If you're getting %(popsicles) get me one too... "
+	"\b[6]Fluffy, fluffy, fluffy clouds... "
+	"\b[6]\![set,balloonwait,3]Yaaaaaawn... "
+	"\b[6]Hey, check it out... This tree's sap is pure %(honey)... "
+	"\b[0]I'm gonna fly all the way up to the top of the sky on my %(pegasus)... Do you want me to bring you back a cloud...? "
+	"\b[6]Mmm... %(pillow)... "
+	"\b[6]I'm soooo sleepy... Zzz... "
+	"\b[6]Zzz... mimimimi... Zzz... mimimimi... "
+	"\b[6]Rubber duckies in the tub, rubber duckies %(eatinggrub)... "
+	"\b[6]Slow down, the speed limit here is only %(GroupDigits(RAND(99000) + 1111))... "
 }
