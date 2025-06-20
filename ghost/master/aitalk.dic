@@ -60,4 +60,6 @@ SleepyTalk : nonoverlap_pool
 	"\b[6]Zzz... mimimimi... Zzz... mimimimi... "
 	"\b[6]Rubber duckies in the tub, rubber duckies %(eatinggrub)... "
 	"\b[6]Slow down, the speed limit here is only %(GroupDigits(RAND(99000) + 1111))... "
+	"\b[6]Lets get on the boat, float 'cross the moat, appease the goat... "
+	"\b[6]Zzz... I could do with a warm mug of %(oatmeal)... "
 }
