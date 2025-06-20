@@ -26,14 +26,14 @@ sakura.bindgroup2.name,Bottom,Poofy Skirt
 sakura.bindgroup3.name,Bottom,PJ Bottoms
 
 //Hat
-sakura.bindgroup151.name,Hat,Helmet
-sakura.bindgroup152.name,Hat,Tiara
-sakura.bindgroup153.name,Hat,PJ Hat
+sakura.bindgroup101.name,Hat,Helmet
+sakura.bindgroup102.name,Hat,Tiara
+sakura.bindgroup103.name,Hat,PJ Hat
 
 //Hand
-sakura.bindgroup101.name,Handheld,Sword
-sakura.bindgroup102.name,Handheld,Bouquet
-sakura.bindgroup103.name,Handheld,Pillow
+sakura.bindgroup151.name,Handheld,Sword
+sakura.bindgroup152.name,Handheld,Bouquet
+sakura.bindgroup153.name,Handheld,Pillow
 
 //Extra
 sakura.bindgroup201.name,Extra,Pauldron

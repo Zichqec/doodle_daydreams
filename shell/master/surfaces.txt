@@ -41,25 +41,25 @@ surface0
 	
 	//handheld
 	//advent
-	animation101.interval,bind
-	animation101.pattern0,overlay,301,0,0,0
+	animation151.interval,bind
+	animation151.pattern0,overlay,301,0,0,0
 	//demure
-	animation102.interval,bind
-	animation102.pattern0,overlay,302,0,0,0
+	animation152.interval,bind
+	animation152.pattern0,overlay,302,0,0,0
 	//sleepy
-	animation103.interval,bind
-	animation103.pattern0,overlay,303,0,0,0
+	animation153.interval,bind
+	animation153.pattern0,overlay,303,0,0,0
 	
 	//heat
 	//advent
-	animation151.interval,bind
-	animation151.pattern0,overlay,401,0,0,0
+	animation101.interval,bind
+	animation101.pattern0,overlay,401,0,0,0
 	//demure 
-	animation152.interval,bind
-	animation152.pattern0,overlay,402,0,0,0
+	animation102.interval,bind
+	animation102.pattern0,overlay,402,0,0,0
 	//sleepy 
-	animation153.interval,bind
-	animation153.pattern0,overlay,403,0,0,0
+	animation103.interval,bind
+	animation103.pattern0,overlay,403,0,0,0
 	
 	//extra
 	//advent
@@ -107,25 +107,27 @@ surface1
 	
 	//handheld
 	//advent
-	animation101.interval,bind
-	animation101.pattern0,overlay,1301,0,0,0
-	//demure
-	animation102.interval,bind
-	animation102.pattern0,overlay,1302,0,0,0
-	//sleepy
-	animation103.interval,bind
-	animation103.pattern0,overlay,1303,0,0,0
-	
-	//heat
-	//advent
 	animation151.interval,bind
-	animation151.pattern0,overlay,1401,0,0,0
-	//demure 
+	animation151.pattern0,insert,(201,202)
+	animation151.pattern1,overlay,1301,0,0,0
+	//demure
 	animation152.interval,bind
-	animation152.pattern0,overlay,1402,0,0,0
-	//sleepy 
+	animation152.pattern0,insert,(201,202)
+	animation152.pattern1,overlay,1302,0,0,0
+	//sleepy
 	animation153.interval,bind
-	animation153.pattern0,overlay,1403,0,0,0
+	animation153.pattern0,overlay,1303,0,0,0
+	
+	//hat
+	//advent
+	animation101.interval,bind
+	animation101.pattern0,overlay,1401,0,0,0
+	//demure 
+	animation102.interval,bind
+	animation102.pattern0,overlay,1402,0,0,0
+	//sleepy 
+	animation103.interval,bind
+	animation103.pattern0,overlay,1403,0,0,0
 	
 	//extra
 	//advent
@@ -165,34 +167,41 @@ surface2
 	//advent
 	animation51.interval,bind
 	animation51.pattern0,overlay,2201,0,0,0
+	animation51.pattern1,insert,(151,152)
+	animation51.pattern2,overlay,2601,0,0,0
 	//demure
 	animation52.interval,bind
 	animation52.pattern0,overlay,2202,0,0,0
 	//sleepy
 	animation53.interval,bind
 	animation53.pattern0,overlay,2203,0,0,0
+	animation53.pattern1,insert,(151,152)
+	animation53.pattern2,overlay,2602,0,0,0
 	
 	//handheld
 	//advent
-	animation101.interval,bind
-	animation101.pattern0,overlay,2301,0,0,0
-	//demure
-	animation102.interval,bind
-	animation102.pattern0,overlay,2302,0,0,0
-	//sleepy
-	animation103.interval,bind
-	animation103.pattern0,overlay,2303,0,0,0
-	
-	//heat
-	//advent
 	animation151.interval,bind
-	animation151.pattern0,overlay,2401,0,0,0
-	//demure 
+	animation151.pattern0,insert,(201,202,101)
+	animation151.pattern1,overlay,2301,0,0,0
+	//demure
 	animation152.interval,bind
-	animation152.pattern0,overlay,2402,0,0,0
-	//sleepy 
+	animation152.pattern0,insert,(201,202,101)
+	animation152.pattern1,overlay,2302,0,0,0
+	//sleepy
 	animation153.interval,bind
-	animation153.pattern0,overlay,2403,0,0,0
+	animation153.pattern0,insert,(201,202)
+	animation153.pattern1,overlay,2303,0,0,0
+	
+	//hat
+	//advent
+	animation101.interval,bind
+	animation101.pattern0,overlay,2401,0,0,0
+	//demure 
+	animation102.interval,bind
+	animation102.pattern0,overlay,2402,0,0,0
+	//sleepy 
+	animation103.interval,bind
+	animation103.pattern0,overlay,2403,0,0,0
 	
 	//extra
 	//advent
