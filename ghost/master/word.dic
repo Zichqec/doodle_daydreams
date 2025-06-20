@@ -1,3 +1,18 @@
+acake
+{
+	"a cake"
+	"a pie"
+	"cookies"
+	"tarts"
+	"brownies"
+	"muffins"
+	"strudel"
+	"cinnamon rolls"
+	"croissants"
+	"macarons"
+	"a turnover"
+}
+
 achest
 {
 	"a chest"
@@ -46,6 +61,23 @@ adventure
 	"make history"
 }
 
+ahouse
+{
+	"a house"
+	"a castle"
+	"a moose"
+	"a hummingbird"
+	"a dog"
+	"a person"
+	"a dragon"
+	"3 horses put together into 1 enormous super-horse"
+	"me"
+	"the moon"
+	"a sheep"
+	"an eel"
+	"a jellyfish"
+}
+
 aunicorn
 {
 	"a unicorn"
@@ -79,6 +111,140 @@ avampire
 	"a selkie"
 	"a wraith"
 	"a zombie"
+}
+
+butterflies
+{
+	"butterflies"
+	"moths"
+	"ants"
+	"wild dogs"
+	"faeries"
+	"goblins"
+	"walking ferns"
+	"worms"
+	"squirrels"
+	"lost bones"
+	"buttons"
+	"mushrooms"
+}
+
+chocolate
+{
+	"chocolate"
+	"vanilla"
+	"lemon"
+	"strawberry"
+	"caramel"
+	"almond"
+	"pecan"
+	"banana"
+	"carrot"
+	"pumpkin"
+	"cherry"
+	"cinnamon"
+	"coffee"
+	"blueberry"
+	"raspberry"
+	"butterscotch"
+	"matcha"
+}
+
+died
+{
+	"died"
+	"had their arms eaten by wild deer"
+	"got lost in a bottomless pit"
+	"got a bad haircut and can't be seen in public"
+	"left to go on a long and perilous adventure"
+	"eloped"
+	"got a divorce"
+	"broke up with their fiance"
+	"are mourning their life long rival"
+	"have a duel scheduled for that day"
+	"went to prison"
+	"got grounded"
+	"developed an allergy to tea"
+	"despise me"
+	"decided they hate tea and will only drink %(hotchocolate) form now on"
+	"joined a puzzling competition"
+	"broke their leg"
+	"got sick"
+	"missed a flight and are stuck halfway across the world"
+	"were swallowed by a whale"
+	"had their soul trapped inside of a doll"
+	"got transported to a magical world"
+	"tamed a unicorn"
+	"decided to sleep instead"
+}
+
+eggs
+{
+	"eggs"
+	"milk"
+	"flour"
+	"sugar"
+	"apple slices"
+	"pineapple"
+	"worms"
+	"butter"
+	"flowers"
+	"sprinkles"
+	"fudge"
+	"hot peppers"
+	"pickles"
+	"cheese"
+	"bubbles"
+}
+
+embroidery
+{
+	"embroidery"
+	"knitting"
+	"weaving"
+	"bobbin lace"
+	"tatting"
+	"resin pouring"
+	"needle lace"
+	"cheese making"
+	"miniature painting"
+	"sewing"
+	"quilting"
+	"sword fighting"
+	"alligator wrestling"
+	"giant pumpkin growing"
+	"star wrangling"
+	"hole digging"
+	"gardening"
+	"bird watching"
+	"chemistry"
+	"theoretical physics"
+	"jumping"
+	"mountain climbing"
+	"sitting around doing nothing"
+	"modeling"
+	"ceramics making"
+	"painting"
+	"yarn dyeing"
+	"nålebinding"
+	"metalworking"
+	"bone carving"
+	"pranks"
+	"glass blowing"
+	"high diving"
+	"book binding"
+	"oration"
+	"soap making"
+	"basket weaving"
+}
+
+hotchocolate
+{
+	"hot chocolate"
+	"coffee"
+	"fruit juice"
+	"mineral water"
+	"pure honey"
 }
 
 killedyou

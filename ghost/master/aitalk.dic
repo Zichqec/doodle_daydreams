@@ -41,7 +41,10 @@ AdventurerTalk : nonoverlap_pool
 
 DemureTalk : nonoverlap_pool
 {
-	"\b[0]Demure"
+	"\b[0]I'm going to bake %(acake) today. \n\nI think %(chocolate) with extra %(eggs) sounds delicious."
+	"\b[0]Whenever I take a stroll in the garden, I like to watch for %(butterflies). \n\nSome of them get as big as %(ahouse)!"
+	"\b[0]A true lady needs many skills. I should practice my %(embroidery) so I can be the best at it."
+	"\b[2]I invited a friend over for tea, but I don't think they'll be joining me. \n\nRumor has it that they %(died)... Perhaps next week will be better."
 }
 
 SleepyTalk : nonoverlap_pool
