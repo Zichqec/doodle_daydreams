@@ -9,7 +9,7 @@ OnMouseDoubleClick
 //Because there is an all modifier here, you don't need to write -- between menu options
 OnSakuraMenu : all
 {
-	"\C\![lock,balloonrepaint]\c"
+	if SHIORI3FW.Eventid != "OnMouseDoubleClick"; "\C\![lock,balloonrepaint]\c"
 	"\0\s[%(CurrentPose)]\![set,autoscroll,disable]\_q"
 	if SHIORI3FW.BalloonName == "Doodles in the Margins"; "\b[4]"
 	else; "\b[2]"
