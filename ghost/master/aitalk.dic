@@ -44,6 +44,7 @@ AdventurerTalk : nonoverlap_pool
 	"\b[0]Adventurers face many trials on the open road, but you'll seldom meet one that doesn't relish the challenge!"
 	"\b[0]Never stop moving forward. You never know, around the next bend might be %(atreasurechest)!"
 	"\b[2]Don't forget to watch the skies. Aerial monsters will snatch you in an instant.\n\n Once you're off the ground, you're in \f[italic,true]their\f[italic,default] domain, and a defeat is sure to follow."
+	"\b[0]When facing down a cyclops, the most important thing to remember is this:\n\n A lack of depth perception doesn't matter when its club is the size of a tree!"
 	//"\b[0]Before you take a job from the local town, be sure to find out if other adventurers before you have attempted it and perished!"
 }
 
@@ -53,6 +54,8 @@ DemureTalk : nonoverlap_pool
 	"\b[0]Whenever I take a stroll in the garden, I like to watch for %(butterflies). \n\nSome of them get as big as %(ahouse)!"
 	"\b[0]A true lady needs many skills. I should practice my %(embroidery) so I can be the best at it."
 	"\b[2]I invited a friend over for tea, but I don't think they'll be joining me. \n\nRumor has it that they %(died)... Perhaps next week will be better."
+	"\b[4]At the last ball I attended, there was quite the spectacle.\n\n Someone %(felldownthestairs) and %(brokeavase). But that's not all! It turns out, this someone was the %(king), and all of their %(cousins) saw it happen. Imagine!"
+	"\b[0]I would never brag about my %(socialacuity)... but I might mention my %(competitivebouquettossing)."
 }
 
 SleepyTalk : nonoverlap_pool
