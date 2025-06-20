@@ -28,7 +28,7 @@ OnSakuraMenu : all
 	"Random:\n"
 	"\![!]\__q[OnRandomChange,pose]Pose\__q  "
 	"\![!]\__q[OnRandomChange,clothes]Clothes\__q  "
-	"\![!]\__q[OnRandomChange,all]All\__q"
+	"\![!]\__q[OnRandomChange,both]Both\__q"
 	
 	"\n\n"
 	
@@ -111,7 +111,7 @@ OnChangePose
 
 OnRandomChange : all
 {
-	if reference0 == "pose" || reference0 == "all"
+	if reference0 == "pose" || reference0 == "both"
 	{
 		_num = CurrentPose
 		while _num == CurrentPose
@@ -121,7 +121,7 @@ OnRandomChange : all
 		CurrentPose = _num
 		LastTalk = ""
 	}
-	if reference0 == "clothes" || reference0 == "all"
+	if reference0 == "clothes" || reference0 == "both"
 	{
 		_currenttop = ""
 		_currentbottom = ""
