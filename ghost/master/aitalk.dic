@@ -44,7 +44,7 @@ AdventurerTalk : nonoverlap_pool
 	"\b[0]Adventurers face many trials on the open road, but you'll seldom meet one that doesn't relish the challenge!"
 	"\b[0]Never stop moving forward. You never know, around the next bend might be %(atreasurechest)!"
 	"\b[2]Don't forget to watch the skies. Aerial monsters will snatch you in an instant.\n\n Once you're off the ground, you're in \f[italic,true]their\f[italic,default] domain, and a defeat is sure to follow."
-	//"\b[0]Before you take a job from the local town, be sure to find out if other adventurers before you have attempted it and perished!"
+	"\b[2]Before you take a job from the local town, be sure to find out if other adventurers before you have attempted it and perished!\n\n Learn from their mistakes, so you don't make the same ones."
 }
 
 DemureTalk : nonoverlap_pool
