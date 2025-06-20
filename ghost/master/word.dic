@@ -1,3 +1,20 @@
+achest
+{
+	"a chest"
+	"the door"
+	"a rug"
+	"an apple"
+	"a magic tome"
+	"your backpack"
+	"a stump"
+	"a potion"
+	"a dagger"
+	"your freshly cooked dinner"
+	"a torch"
+	"a conveniently placed umbrella"
+	"an anchovy tin"
+}
+
 ademon
 {
 	"a demon"
@@ -41,6 +58,42 @@ aunicorn
 	"a griffin"
 	"the cerberus"
 	"the sphinx"
+}
+
+avampire
+{
+	"a vampire"
+	"a siren"
+	"a harpy"
+	"a hellborne"
+	"a dryad"
+	"a centaur"
+	"a hag"
+	"an angel"
+	"a ghoul"
+	"a kitsune"
+	"an oni"
+	"an imp"
+	"a lamia"
+	"a merfolk"
+	"a selkie"
+	"a wraith"
+	"a zombie"
+}
+
+killedyou
+{
+	"killed you"
+	"swallowed you whole"
+	"ate you and your gear"
+	"beat you at chess"
+	"stole all your money"
+	"snuck into your pocket"
+	"trapped you in its adhesive membranes"
+	"chewed you to bits"
+	"attached a tracker to you so it can find you later"
+	"pry into your personal history"
+	"turned your blood into pudding"
 }
 
 king
@@ -115,4 +168,18 @@ thevillage
 	"the countryside"
 	"the universe"
 	"the corner store"
+}
+
+wallscums
+{
+	"wall scums"
+	"monster meats"
+	"basement veggies"
+	"mysterious dust piles"
+	"elaborately prepared meals in an out of place dining room"
+	"vines growing from the ceiling"
+	"accumulations of ice"
+	"rocks"
+	"bones"
+	"oozes"
 }
