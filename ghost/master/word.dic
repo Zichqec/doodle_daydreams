@@ -159,7 +159,7 @@ died
 	"left to go on a long and perilous adventure"
 	"eloped"
 	"got a divorce"
-	"broke up with their fiance"
+	"broke up with their fiancé"
 	"are mourning their life long rival"
 	"have a duel scheduled for that day"
 	"went to prison"
@@ -620,4 +620,29 @@ meow
 	"purr"
 	"hiss"
 	"ribbit"
+}
+
+scalingthismountain
+{
+	"scaling this mountain"
+	"devouring this delicious food"
+	"saving the townsfolk"
+	"rescuing the %(king)"
+	"slaying the dragon"
+	"looting every chest in this dungeon"
+	"completing my noble quest"
+	"crossing this valley"
+}
+
+atreasurechest
+{
+	"a chest brimming with treasure"
+	"your long lost twin"
+	"a town that needs your help"
+	"a warm place to stay the night"
+	"your next meal%(emdash) if you have the stamina to catch it"
+	"a stunning waterfall"
+	"%(aunicorn) waiting for you"
+	"another bend"
+	"an escape route from the monster on your tail"
 }
