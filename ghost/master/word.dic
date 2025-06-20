@@ -1,3 +1,27 @@
+abucket
+{
+	"a bucket"
+	"a hammer"
+	"a timer"
+	"a politely worded letter"
+	"the cold shoulder"
+	"feigning ignorance"
+	"being mean"
+	"a smile"
+	"violence"
+	"a firm handshake"
+	"a backalley deal"
+	"a fork"
+	"a cargo ship"
+	"11 bulldozers"
+	"%(ademon)"
+	"%(aunicorn)"
+	"%(hotchocolate)"
+	"a %(rustedsword)"
+	"%(popsicles)"
+	"%(oatmeal)"
+}
+
 acake
 {
 	"a cake"
@@ -61,6 +85,22 @@ adventure
 	"make history"
 }
 
+afish
+{
+	"a fish"
+	"a big lizard"
+	"a snake with legs"
+	"an armored knight"
+	"a tree"
+	"myself from the future"
+	"a bear"
+	"a hallucination"
+	"some wizard prank"
+	"a figment of my imagination"
+	"something I made up at the soirée last week"
+	"my rival in a homemade costume"
+}
+
 ahouse
 {
 	"a house"
@@ -76,6 +116,25 @@ ahouse
 	"a sheep"
 	"an eel"
 	"a jellyfish"
+}
+
+arose
+{
+	"a rose"
+	"a tulip"
+	"a marigold"
+	"a lily"
+	"a carnation"
+	"a peony"
+	"an orchid"
+	"a mandrake"
+	"a snake shed"
+	"a small skull"
+	"an interesting stick"
+	"a human hand"
+	"an egg"
+	"a gemstone"
+	"someone's housekey"
 }
 
 aunicorn
@@ -111,6 +170,20 @@ avampire
 	"a selkie"
 	"a wraith"
 	"a zombie"
+}
+
+beingboring
+{
+	"being boring"
+	"being a super criminal"
+	"ignoring me"
+	"squashing snails"
+	"mosquitoes"
+	"smelling like onions"
+	"losing the only pair of scissors in the house"
+	"picking your nose"
+	"not stopping to pet a dog when it's wagging its tail at you"
+	"horses"
 }
 
 brokeavase
@@ -286,6 +359,36 @@ felldownthestairs
 	"called their partner a fat goat"
 }
 
+fromacup
+{
+	"from a cup"
+	"with your mouth"
+	"in liquid form"
+	"by introducing yourself to it first"
+	"outside, where you can share it with the bugs"
+	"in the bath"
+	"on the roof"
+	"from a tea fountain"
+	"while wearing gloves so you feel fancy"
+	"in the basement where no one can see you do it"
+	"with milk"
+	"with cookies"
+	"to have already done so an hour ago. The second best way to drink tea is to have it now"
+	"with friends while your rival watches jealously from a nearby tower"
+	"through your teeth"
+	"with a straw"
+	"without burning your tongue"
+	"to freeze it and eat it instead"
+	"to stand outside while it's snowing and catch snowflakes in your teacup"
+	"scalding hot"
+	"with extra hot sauce"
+	"to have it early in the morning before any other tastes have touched your tongue"
+	"to scare it into tasting good with threats"
+	"elegantly"
+	"while doing a hand stand"
+	"as fast as you can before anyone can steal it"
+}
+
 hotchocolate
 {
 	"hot chocolate"
@@ -370,6 +473,20 @@ slayademon
 	"save %(thevillage)"
 }
 
+sleepforover24hours
+{
+	"sleep for over 24 hours in a day"
+	"forget to practice their sitting poses"
+	"expect other people to solve their problems... but they might ask anyway"
+	"eat glass"
+	"ignore hoof maintenance"
+	"kick a bird out of its nest so they can live there instead"
+	"carry a blade without knowing how to use it"
+	"keep hostages"
+	"forget to carry an antidote"
+	"give their name for free"
+}
+
 socialacuity
 {
 	"social acuity"
@@ -382,6 +499,40 @@ socialacuity
 	"magic piggybank that always has enough coin for %(asnack), no matter how much I spend"
 	"bragging abilities"
 	"large number of enemies that want me dead"
+}
+
+steed
+{
+	"horse"
+	"unicorn"
+	"pegasus"
+	"lion"
+	"tiger"
+	"ox"
+	"bull"
+	"boar"
+	"stag"
+	"riding lizard"
+	"wyrm"
+	"dire wolf"
+	"rino"
+	"dire goose"
+	"giant hawk"
+	"average sized but monstrously strong owl" 
+}
+
+thecourtyard
+{
+	"the castle courtyard"
+	"the wheat fields"
+	"the apple orchard"
+	"wide stretches of sandy beaches"
+	"prisoner filled dungeons"
+	"the kitchens for a nice, fresh snack"
+	"the stables so it can show off to the other animals"
+	"the wizard's herb garden"
+	"various street markets, so it understands the value of money"
+	"misty forests where lost souls are said to gather"
 }
 
 thevillage
@@ -410,6 +561,32 @@ wallscums
 	"rocks"
 	"bones"
 	"oozes"
+}
+
+wegotmarried
+{
+	"We ended up falling in love and getting married, so it technically isn't kidnapping anymore."
+	"I negotiated my release by promising it all of my future earnings. I declined to tell it I have no intention of getting a job."
+	"I waited for it to fall asleep so I could steal its treasures and escape. It hasn't caught me again since."
+	"Don't worry. I used my emergency dagger to fight my way home."
+	"It thought I was some kind of weirdly colored sheep, so when I cleared up the confusion, it brought me right back home."
+	"It offered me a job counting treasure, but I had to decline. My schedule is simply too busy for such frivolous things."
+	"At least, I think it was a dragon... It might have been %(afish), actually... "
+	"By the time we reached its lair, I had already swayed it into doing my bidding. I sat atop a throne of treasure, my new dragon pet curled up at the bottom of the mound, ready to jump into action at a moments notice... \n\n Then I woke up. What a bother."
+}
+
+yourfavoritecolor
+{
+	"your favorite color"
+	"the skeletons in your closet"
+	"the secret passageways beneath the castle"
+	"that strange rash"
+	"the time of day"
+	"your plots"
+	"your dreams"
+	"the quests you've submitted to the guild"
+	"multiplication tables"
+	"your embarrassing memories"
 }
 
 ducky
