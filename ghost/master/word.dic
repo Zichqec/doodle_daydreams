@@ -186,6 +186,16 @@ beingboring
 	"horses"
 }
 
+blorange
+{
+	"blorange"
+	"pellow"
+	"grurple"
+	"yack"
+	"cyite"
+	"rown"
+}
+
 brokeavase
 {
 	"broke a vase"
@@ -218,6 +228,21 @@ butterflies
 	"lost bones"
 	"buttons"
 	"mushrooms"
+}
+
+carpet
+{
+	"carpet"
+	"garden"
+	"fridge"
+	"silverware"
+	"wardrobe"
+	"staircase"
+	"piano"
+	"road"
+	"pond"
+	"camera"
+	"wizard"
 }
 
 chocolate
@@ -344,6 +369,23 @@ embroidery
 	"basket weaving"
 }
 
+face
+{
+	"face"
+	"cord"
+	"antenna"
+	"ears"
+	"homework"
+	"lamp"
+	"chickens"
+	"buttons"
+	"kayak"
+	"fish food"
+	"vase"
+	"socks"
+	"water"
+}
+
 felldownthestairs
 {
 	"fell down the stairs"
@@ -389,6 +431,20 @@ fromacup
 	"as fast as you can before anyone can steal it"
 }
 
+gotothezoo
+{
+	"I wanna go to the zoo"
+	"I can't live in a shoe"
+	"The pig goes 'moo'"
+	"We've got a 5 man crew"
+	"The bills are due"
+	"That duck has the flu"
+	"Why is the grass blue"
+	"How does a fish chew"
+	"I found a clue"
+	"Nooo, don't eat the glue"
+}
+
 hotchocolate
 {
 	"hot chocolate"
@@ -396,6 +452,21 @@ hotchocolate
 	"fruit juice"
 	"mineral water"
 	"pure honey"
+}
+
+ink
+{
+	"milk"
+	"beans"
+	"blood"
+	"grape jelly"
+	"tree sap"
+	"dog hair"
+	"mud"
+	"paint"
+	"mashed flowers"
+	"cheese"
+	"chicken wire"
 }
 
 killedyou
@@ -449,6 +520,34 @@ legendary
 	"passed down for generations"
 	"a tale which strikes fear into the heart of my enemies"
 	"a warning to those that come after me"
+}
+
+make
+{
+	"make"
+	"paint"
+	"cook"
+	"carve"
+	"dig"
+	"build"
+	"sculpt"
+	"grow"
+	"inflate"
+	"bake"
+}
+
+napkins
+{
+	"napkins"
+	"tubas"
+	"playing cards"
+	"jello"
+	"kittens"
+	"snapping turtles"
+	"hats"
+	"crayons"
+	"dust bunnies"
+	"clouds"
 }
 
 rustedsword
