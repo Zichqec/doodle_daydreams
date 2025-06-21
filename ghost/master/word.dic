@@ -1320,6 +1320,12 @@ frequentbaths
 	"store-bought is fine"
 	"careful airbrushing"
 	"a few hours of gentle moonlight regularly"
+	"beauty sleep, it's always beauty sleep"
+	"ground unicorn horn"
+	"an affirming pat on the head on the hour, every hour"
+	"12 hours of sleep between every appointment"
+	"swimming in the courtyard fountain"
+	"chanting 'be better than your rival' 100 times a day"
 }
 
 weredestinedtobe
@@ -1329,6 +1335,16 @@ weredestinedtobe
 	"they're spreading rumors about me"
 	"they're jealous of me"
 	"I've been invited to a secret tea party"
+	"I've been accepted into the secret society"
+	"this is a veiled insult about the dress I wore last week"
+	"the treasure hunt is on"
+	"I need to wear it in my hat so they know that I received it"
+	"I've been chosen"
+	"I've been cursed, and now have to wait for my hero to save me, then we'll fall in love until I realize that they only care for my beauty and I'll have to assassinate them for the audacity"
+	"the cattle have returned"
+	"I dropped it somewhere and didn't notice"
+	"faeries"
+	"I need to prepare 20 loaves of bread right away"
 }
 
 takealongbubblebath
@@ -1372,6 +1388,13 @@ feedtheducks
 	"plan my next tea party"
 	"wait for my rival to arrive so we can exchange dirty looks"
 	"watch the fountain"
+	"skip stones"
+	"do some %(embroidery), plein-air style"
+	"wistfully throw a family heirloom into it as a gentleman passes by"
+	"become one with the algae"
+	"find a nice rock to eat"
+	"pretend to be a rose bush"
+	"fake a horrible accident in front of everyone where I slip and hit my head, getting amnesia and needing everyone's help in order to recover my memories, which will require that they each tell me stories about how much they like me and enjoy my company"
 }
 
 beseenbarefoot
@@ -1397,6 +1420,9 @@ inthewoods
 	"in the ball room"
 	"on the beach"
 	"on the balcony"
+	"in your rival's bedroom closet to spy on them"
+	"on the roof at sunset as you wait for your suitor's return"
+	"around the %(steed) stables"
 }
 
 anewscarf
