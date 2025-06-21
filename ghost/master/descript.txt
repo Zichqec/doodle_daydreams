@@ -12,8 +12,6 @@ craftmanurl,https://github.com/Zichqec/doodle_daydreams
 sakura.name,Foundina Thriftstore
 kero.name,
 
-icon,icon.ico
-
 sstp.allowunspecifiedsend,0
 
 balloon,Doodles in the Margins

@@ -15,7 +15,7 @@ sakura.balloon.offsetx,75
 sakura.balloon.offsety,200
 
 //Tops
-sakura.bindgroup51.default,1
+sakura.bindgroup50.default,1
 sakura.bindoption50.group,Top,mustselect
 sakura.bindgroup50.name,Top,Sports Bra
 sakura.bindgroup51.name,Top,Pirate Shirt
@@ -26,7 +26,7 @@ sakura.bindgroup62.name,Top,T-Shirt
 sakura.bindgroup63.name,Top,Hawaiian Shirt
 
 //Bottoms
-sakura.bindgroup1.default,1
+sakura.bindgroup0.default,1
 sakura.bindoption0.group,Bottom,mustselect
 sakura.bindgroup0.name,Bottom,Boy Shorts
 sakura.bindgroup1.name,Bottom,Adventure Boots

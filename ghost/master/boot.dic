@@ -5,7 +5,8 @@ OnFirstBoot : all
 	BalloonColor = 0
 	
 	"\t\*"
-	"\0\![set,alpha,0]\s[%(CurrentPose)]\1\![set,alpha,0]\s[0]\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]\![set,alpha,100]"
+	"\0\![set,alpha,0]\s[%(CurrentPose)]\1\![set,alpha,0]\s[0]%(MoveToSakura)\![set,alpha,100]"
+	"\0\![bind,Top,Pirate Shirt,1]\![bind,Bottom,Adventure Boots,1]\![bind,Handheld,Sword,1]"
 	
 	"\1\s[0]\0\b[0]They say one man's trash is another man's treasure... I think I would have to agree with that sentiment.\x"
 	"\1\s[2]\0\b[0]No brand or serial number,\w4%(br)no name to be found anywhere... \n\nI wonder where this thing came from?\x"
@@ -24,9 +25,17 @@ OnInitialize
 	}
 }
 
+MoveToSakura : all
+{
+	//Yes this has to be doubled to work properly. I do not know why. This has been an issue for me for years.
+	//Oddly, it did not happen on my win11 laptop. Does win11 fix it? Is it a multi-monitor display issue? Is it a problem with my main copy of SSP? I am not sure.
+	"\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]"
+	"\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]"
+}
+
 FadeIn : all
 {
-	"\1\![set,alpha,0]\s[%(CurrentPose)]\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]\0\![set,alpha,0]\s[%(CurrentPose)]\1\![set,alpha,100]\0"
+	"\1\![set,alpha,0]\s[%(CurrentPose)]%(MoveToSakura)\0\![set,alpha,0]\s[%(CurrentPose)]\1\![set,alpha,100]\0"
 	
 	for _i = 0; _i < 100; _i++
 	{
@@ -37,7 +46,7 @@ FadeIn : all
 
 FadeOut : all
 {
-	"\1\![set,alpha,0]\s[%(CurrentPose)]\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]\0\![set,alpha,100]\s[%(CurrentPose)]\1\![set,alpha,100]\0"
+	"\1\![set,alpha,0]\s[%(CurrentPose)]%(MoveToSakura)\0\![set,alpha,100]\s[%(CurrentPose)]\1\![set,alpha,100]\0"
 	
 	for _i = 100; _i > 0; _i--
 	{
@@ -48,7 +57,7 @@ FadeOut : all
 
 OnBoot
 {
-	"\0\![set,alpha,0]\s[%(CurrentPose)]\1\![set,alpha,0]\s[%(CurrentPose)]\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]\![set,alpha,100]\0"
+	"\0\![set,alpha,0]\s[%(CurrentPose)]\1\![set,alpha,0]\s[%(CurrentPose)]%(MoveToSakura)\![set,alpha,100]\0"
 	--
 	BootTalk
 }
