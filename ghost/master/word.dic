@@ -256,6 +256,21 @@ competitivebouquettossing
 	"artficial skin"
 }
 
+cousins
+{
+	"cousins"
+	"siblings"
+	"parents"
+	"friends"
+	"pets"
+	"sponsors"
+	"coworkers"
+	"servants"
+	"knights"
+	"suitors"
+	"enemies"
+}
+
 died
 {
 	"died"
