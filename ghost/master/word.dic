@@ -194,6 +194,17 @@ blorange
 	"yack"
 	"cyite"
 	"rown"
+	"urble"
+	"green... no, wait, greem"
+	"blullow"
+	"reb"
+	"bink"
+	"yerred"
+	"blueck"
+	"white... wait, that's a color already, I'll get back to you"
+	"glack"
+	"graey"
+	"graeck"
 }
 
 brokeavase
@@ -960,6 +971,7 @@ bologna
 	"brake fluid"
 	"beef"
 	"bread rolls"
+	"bagels"
 }
 
 meow
@@ -973,6 +985,7 @@ meow
 	"purr"
 	"hiss"
 	"ribbit"
+	"yip"
 }
 
 scalingthismountain
@@ -985,6 +998,10 @@ scalingthismountain
 	"looting every chest in this dungeon"
 	"completing my noble quest"
 	"crossing this valley"
+	"being first in line at the blacksmith's tomorrow"
+	"cleansing this crypt"
+	"fixing these boots"
+	"washing my hands"
 }
 
 atreasurechest
@@ -998,6 +1015,7 @@ atreasurechest
 	"%(aunicorn) waiting for you"
 	"another bend"
 	"an escape route from the monster on your tail"
+	"the witch that has cast the curse on you"
 }
 
 thecliffedge
@@ -1009,6 +1027,8 @@ thecliffedge
 	"%(thatchest), it might be a mimic"
 	"the market, there are pickpockets around"
 	"the dragon's claws, they're sharp"
+	"any signs of %(aunicorn). The bites are surprisingly vicious"
+	"the guild, not all quest givers have officially approved requests"
 }
 
 thatchest
@@ -1062,6 +1082,8 @@ asingleswordhasswung
 	"you can blink"
 	"you even draw your sword"
 	"you even raise your axe"
+	"you've even had the chance to utter your war cry"
+	"you've had the chance to show off your slick fighting moves"
 }
 
 yourtarget
@@ -1074,6 +1096,9 @@ yourtarget
 	"your gold pouch while you're shopping at the market"
 	"a treasure chest if you're delving into a dungeon with hired help"
 	"the skies"
+	"the road ahead"
+	"your goals, even if they're years away and feel unachievable"
+	"your next meal"
 }
 
 bethehero
@@ -1099,6 +1124,10 @@ yoursword
 	"your pen"
 	"your sense of style"
 	"your stunning charisma"
+	"your wand"
+	"your map"
+	"your intuition"
+	"your well-packed travel bag"
 }
 
 jumpintothecanyon
