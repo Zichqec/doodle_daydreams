@@ -952,3 +952,199 @@ theblacksmith
 	"the spa to get those knots out of my shoulders"
 	"the moneylender to pay back my dues"
 }
+
+asingleswordhasswung
+{
+	"a single sword has been swung"
+	"a single arrow pierces the air"
+	"the enemy has a chance to fully process what is happening"
+	"the first blow"
+	"the first hammer strike"
+	"you can blink"
+	"you even draw your sword"
+	"you even raise your axe"
+}
+
+yourtarget
+{
+	"your target"
+	"the enemy"
+	"%(avampire) if it has you cornered"
+	"a mimic once you've spotted it"
+	"the prize"
+	"your gold pouch while you're shopping at the market"
+	"a treasure chest if you're delving into a dungeon with hired help"
+	"the skies"
+}
+
+bethehero
+{
+	"be the hero of the people"
+	"find lots of treasure"
+	"get stuck in holes"
+	"have your name recorded in history"
+	"pick up weird illnesses"
+	"fight monsters"
+	"sleep outside covered in bugs"
+	"enjoy campfire food on the regular"
+	"never stay in one place too long"
+	"meet people from all walks of life"
+}
+
+yoursword
+{
+	"your sword"
+	"your mace"
+	"your axe"
+	"your pencil"
+	"your pen"
+	"your sense of style"
+	"your stunning charisma"
+}
+
+jumpintothecanyon
+{
+	"jump into the canyon"
+	"race through the dryad clearing"
+	"storm into the vampire nest"
+	"swing your sword"
+	"throw away your tax paperwork"
+	"delve into that cave"
+	"slurp down that boiling hot soup"
+	"run screaming into battle"
+	"purchase every potion at the apothecary"
+	"spend all of your gold on improving your style"
+	"leap into the fray"
+	"charge at the pack of wolves"
+	"cannon ball into the cursed lake"
+	"open every chest you see"
+}
+
+landthekillingblow
+{
+	"land the killing blow"
+	"leap safely to the other side of the canyon"
+	"fall out of a tree from 20 feet off the ground and stick the landing perfectly"
+	"pay your taxes on time"
+	"escape the grasp of a mimic when you're halfway in its maw"
+	"dodge a fireball without getting singed"
+	"strike a perfect pose anytime, anywhere"
+	"make every villager swoon upon seeing you"
+	"chug 6 potions in under a minute"
+	"wolf down an entire pie like there's no tomorrow"
+}
+
+havingasword
+{
+	"having a sword"
+	"a desire to find treasure"
+	"a love of the wilderness"
+	"an appreciation for wildlife"
+	"a thorough knowledge of how to defeat %(avampire)"
+	"having protective gear"
+	"dressing in style"
+	"an insatiable need to slay monsters"
+	"the urge to see what lies beyond the mountains"
+	"knowing how to safely explore a cave"
+	"a healthy dose of luck"
+	"a blessing from the divine"
+	"having a good set of boots"
+}
+
+asprainedankle
+{
+	"a sprained ankle"
+	"a broken arm"
+	"a first-degree burn" //This was originally "third-degree" but then it had weird word wrap issues
+	"a torn ligament"
+	"a fractured hip"
+	"a broken toe"
+	"an infected ear"
+	"a scratched cornea"
+	"internal bleeding"
+	"frostbite"
+	"a nosebleed"
+	"a severe headache"
+	"a chipped tooth"
+	"indigestion"
+	"heartburn"
+	"lovesickness"
+	"homesickness"
+	"feelings of loneliness"
+	"drowsiness"
+	"a desire to stay in town for months plotting revenge"
+	"an eyelash in your eye"
+	"a fever"
+}
+
+yourtrustysword
+{
+	"your trusty sword"
+	"your friends to swoop in and save you"
+	"your uncanny luck to get you through alive"
+	"the mercy of the divine"
+	"the incompetence of your enemies"
+	"your charismatic charm"
+	"the sun"
+	"the town guard"
+	"your intrinsic sense of justice, if you have one"
+	"your hard-earned skills"
+	"the lessons you forgot you took years ago"
+	"your fist to know who to punch"
+}
+
+atriptothesauna
+{
+	"a trip to the sauna"
+	"an hour spent under a cold waterfall"
+	"laying in a field surrounded by flowers and birds"
+	"a day at the tavern laughing with friends"
+	"a lazy day in the hammock"
+	"telling stories around the campfire"
+	"purchasing a flashy new outfit at the market"
+	"taking a walk by the creek"
+	"skipping stones across the lake"
+	"spending a day watching the birds"
+}
+
+monster
+{
+	"troll"
+	"vampire"
+	"dragon"
+	"wraith"
+	"harpy"
+	"gargoyle"
+	"zombie"
+	"phantom"
+	"mimic"
+	"wolf"
+}
+
+pretendyoureafraid
+{
+	"pretend you're afraid"
+	"act like you're running away, then turn around when they've almost caught you"
+	"do a silly dance"
+	"throw your weapon on the ground.\n\n Of course, once they take the bait and approach, then you must brandish the other weapon you have hidden under your cloak and strike"
+	"offer them a bribe"
+	"act like they're an old friend you haven't seen in a while"
+	"act like you're not fully awake"
+	"let out a shrill scream"
+	"swear allegiance to their side%(emdash) with your fingers crossed behind your back, of course"
+	"invite them to tea"
+}
+
+leeches
+{
+	"leeches"
+	"ticks"
+	"curses"
+	"bite marks"
+	"ancient runes that could signal you've fallen into the influence of a lich"
+	"rashes"
+	"blisters"
+	"gray, clammy patches that could indicate you're transforming into a zombie"
+	"worms that could signal you've been turned into a worm person"
+	"fur which could indicate you've been turned into a werewolf"
+}
