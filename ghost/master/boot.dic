@@ -65,13 +65,13 @@ OnClose
 BootTalk : nonoverlap
 {
 	"\b[0]A little diversion couldn't%(br)hurt... \n\n%(FadeIn)Let's have some adventures, shall we?"
-	"\b[0]Ah, just where I left it... \n\n%(FadeIn)What shall we do today?"
+	"\b[6]Ah, just where I left it... \n\n%(FadeIn)What shall we do today?"
 	"\b[0]Feeling a bit worn out... \n\n%(FadeIn)But you're always a good way to spark my imagination. Let's play."
 }
 
 CloseTalk : nonoverlap
 {
-	"\b[0]Well... \n\n%(FadeOut)That's probably enough for now. Back to work."
+	"\b[6]Well... \n\n%(FadeOut)That's probably enough for now. Back to work."
 	"\b[0]Focus, focus... I've got other things I should be doing.\n\n %(FadeOut)More adventures another time."
-	"\b[0]That's enough for now.\n\n %(FadeOut)I have errands to run... but I'll be back later."
+	"\b[6]That's enough for now.\n\n %(FadeOut)I have errands to run... but I'll be back later."
 }
