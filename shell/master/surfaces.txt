@@ -13,7 +13,7 @@ surface10
 surface0
 {
 	//Adventurere yay!!!!
-	//bottoms
+		//bottoms=====================================================================
 	animation0.interval,bind
 	animation0.pattern0,overlay,100,0,0,0
 	//advent
@@ -26,7 +26,17 @@ surface0
 	animation3.interval,bind
 	animation3.pattern0,overlay,103,0,0,0
 	
-	//tops
+	//notheme 1 jeans
+	animation11.interval,bind
+	animation11.pattern0,overlay,111,0,0,0
+	//notheme 2 skirt
+	animation12.interval,bind
+	animation12.pattern0,overlay,112,0,0,0
+	//notheme 3 trunks
+	animation13.interval,bind
+	animation13.pattern0,overlay,113,0,0,0
+	
+		//tops=====================================================================
 	animation50.interval,bind
 	animation50.pattern0,overlay,200,0,0,0
 	//advent
@@ -39,7 +49,17 @@ surface0
 	animation53.interval,bind
 	animation53.pattern0,overlay,203,0,0,0
 	
-	//handheld
+	//notheme 1 flannel
+	animation61.interval,bind
+	animation61.pattern0,overlay,211,0,0,0
+	//notheme 2 t shirt
+	animation62.interval,bind
+	animation62.pattern0,overlay,212,0,0,0
+	//notheme 3 hawaiian shirt
+	animation63.interval,bind
+	animation63.pattern0,overlay,213,0,0,0
+	
+		//handheld=====================================================================
 	//advent
 	animation151.interval,bind
 	animation151.pattern0,overlay,301,0,0,0
@@ -50,7 +70,17 @@ surface0
 	animation153.interval,bind
 	animation153.pattern0,overlay,303,0,0,0
 	
-	//heat
+	//notheme 1 axe
+	animation161.interval,bind
+	animation161.pattern0,overlay,311,0,0,0
+	//no theme 2 ball
+	animation162.interval,bind
+	animation162.pattern0,overlay,312,0,0,0
+	//no theme 3 fish
+	animation163.interval,bind
+	animation163.pattern0,overlay,313,0,0,0
+	
+		//hat=====================================================================
 	//advent
 	animation101.interval,bind
 	animation101.pattern0,overlay,401,0,0,0
@@ -61,7 +91,19 @@ surface0
 	animation103.interval,bind
 	animation103.pattern0,overlay,403,0,0,0
 	
-	//extra
+	//notheme 1 baseball
+	animation111.interval,bind
+	animation111.pattern0,overlay,411,0,0,0
+	//notheme 2 beanie
+	animation112.interval,bind
+	animation112.pattern0,insert,(213)
+	animation112.pattern1,overlay,412,0,0,0
+	//notheme 3 sun hat
+	animation113.interval,bind
+	animation113.pattern0,insert,(213)
+	animation113.pattern1,overlay,413,0,0,0
+	
+		//extra=====================================================================
 	//advent
 	animation201.interval,bind
 	animation201.pattern0,overlay,501,0,0,0
@@ -71,6 +113,19 @@ surface0
 	//sleepy 
 	animation203.interval,bind
 	animation203.pattern0,overlay,503,0,0,0
+	
+	//no theme 1 scarf
+	animation211.interval,bind
+	animation211.pattern0,overlay,511,0,0,0
+	//no theme 2 wings
+	animation212.interval,bind
+	animation212.pattern0,overlay,512,0,0,0
+	animation212.option,background
+	//no theme 3 sunglasses
+	animation213.interval,bind
+	animation213.pattern0,overlay,513,0,0,0
+	animation213.pattern1,insert,101
+	animation213.pattern2,overlay,601,0,0,0
 	
 	
 	
@@ -92,7 +147,17 @@ surface1
 	animation3.interval,bind
 	animation3.pattern0,overlay,1103,0,0,0
 	
-	//tops
+	//notheme 1 jeans
+	animation11.interval,bind
+	animation11.pattern0,overlay,1111,0,0,0
+	//notheme 2 skirt
+	animation12.interval,bind
+	animation12.pattern0,overlay,1112,0,0,0
+	//notheme 3 trnks
+	animation13.interval,bind
+	animation13.pattern0,overlay,1113,0,0,0
+	
+		//tops=====================================================================
 	animation50.interval,bind
 	animation50.pattern0,overlay,1200,0,0,0
 	//advent
@@ -105,23 +170,47 @@ surface1
 	animation53.interval,bind
 	animation53.pattern0,overlay,1203,0,0,0
 	
-	//handheld
+	//notheme 1 flannel
+	animation61.interval,bind
+	animation61.pattern0,overlay,1211,0,0,0
+	//notheme 2 t shirt
+	animation62.interval,bind
+	animation62.pattern0,overlay,1212,0,0,0
+	//notheme 3 hawaiian shirt
+	animation63.interval,bind
+	animation63.pattern0,overlay,1213,0,0,0
+	
+		//handheld=====================================================================
 	//advent
 	animation151.interval,bind
-	animation151.pattern0,insert,(201,202)
+	animation151.pattern0,insert,(201,202,211)
 	animation151.pattern1,overlay,1301,0,0,0
 	//demure
 	animation152.interval,bind
-	animation152.pattern0,insert,(201,202)
+	animation152.pattern0,insert,(201,202,211)
 	animation152.pattern1,overlay,1302,0,0,0
 	//sleepy
 	animation153.interval,bind
 	animation153.pattern0,overlay,1303,0,0,0
 	
-	//hat
+	//notheme 1 axe
+	animation161.interval,bind
+	animation161.pattern0,insert,(201,202,211)
+	animation161.pattern1,overlay,1311,0,0,0
+	//no theme 2 ball
+	animation162.interval,bind
+	animation162.pattern0,insert,(203)
+	animation162.pattern1,overlay,1312,0,0,0
+	animation162.option,background
+	//no theme 3 fish
+	animation163.interval,bind
+	animation163.pattern0,overlay,1313,0,0,0
+	
+		//hat=====================================================================
 	//advent
 	animation101.interval,bind
-	animation101.pattern0,overlay,1401,0,0,0
+	animation101.pattern0,insert,(213)
+	animation101.pattern1,overlay,1401,0,0,0
 	//demure 
 	animation102.interval,bind
 	animation102.pattern0,overlay,1402,0,0,0
@@ -129,7 +218,20 @@ surface1
 	animation103.interval,bind
 	animation103.pattern0,overlay,1403,0,0,0
 	
-	//extra
+	//notheme 1 baseball
+	animation111.interval,bind
+	animation111.pattern0,insert,(213)
+	animation111.pattern1,overlay,1411,0,0,0
+	//notheme 2 beanie
+	animation112.interval,bind
+	animation112.pattern0,insert,(213)
+	animation112.pattern1,overlay,1412,0,0,0
+	//notheme 3 sun hat
+	animation113.interval,bind
+	animation113.pattern0,insert,(213)
+	animation113.pattern1,overlay,1413,0,0,0
+	
+		//extra=====================================================================
 	//advent
 	animation201.interval,bind
 	animation201.pattern0,overlay,1501,0,0,0
@@ -141,6 +243,17 @@ surface1
 	animation203.pattern0,overlay,1503,0,0,0
 	animation203.option,background
 	
+	//no theme 1 scarf
+	animation211.interval,bind
+	animation211.pattern0,overlay,1511,0,0,0
+	//no theme 2 wings
+	animation212.interval,bind
+	animation212.pattern0,overlay,1512,0,0,0
+	animation212.option,background
+	//no theme 3 sunglasses
+	animation213.interval,bind
+	animation213.pattern0,overlay,1513,0,0,0
+	
 	
 	
 }
@@ -148,7 +261,7 @@ surface1
 surface2
 {
 	//Sleepy yay!!!!
-	//bottoms
+		//bottoms
 	animation0.interval,bind
 	animation0.pattern0,overlay,2100,0,0,0
 	//advent
@@ -161,13 +274,23 @@ surface2
 	animation3.interval,bind
 	animation3.pattern0,overlay,2103,0,0,0
 	
-	//tops
+	//notheme 1 jeans
+	animation11.interval,bind
+	animation11.pattern0,overlay,2111,0,0,0
+	//notheme 2 skirt
+	animation12.interval,bind
+	animation12.pattern0,overlay,2112,0,0,0
+	//notheme 3 trunks
+	animation13.interval,bind
+	animation13.pattern0,overlay,2113,0,0,0
+	
+		//tops=====================================================================
 	animation50.interval,bind
 	animation50.pattern0,overlay,2200,0,0,0
 	//advent
 	animation51.interval,bind
 	animation51.pattern0,overlay,2201,0,0,0
-	animation51.pattern1,insert,(151,152)
+	animation51.pattern1,insert,(151,152.162)
 	animation51.pattern2,overlay,2601,0,0,0
 	//demure
 	animation52.interval,bind
@@ -175,24 +298,49 @@ surface2
 	//sleepy
 	animation53.interval,bind
 	animation53.pattern0,overlay,2203,0,0,0
-	animation53.pattern1,insert,(151,152)
+	animation53.pattern1,insert,(151,152.162)
 	animation53.pattern2,overlay,2602,0,0,0
 	
-	//handheld
+	//notheme 1 flannel
+	animation61.interval,bind
+	animation61.pattern0,overlay,2211,0,0,0
+	animation61.pattern1,insert,(151,152.162)
+	animation61.pattern2,overlay,2603,0,0,0
+	//notheme 2 t shirt
+	animation62.interval,bind
+	animation62.pattern0,overlay,2212,0,0,0
+	//notheme 3 hawaiian shirt
+	animation63.interval,bind
+	animation63.pattern0,overlay,2213,0,0,0
+	
+		//handheld=====================================================================
 	//advent
 	animation151.interval,bind
-	animation151.pattern0,insert,(201,202,101)
+	animation151.pattern0,insert,(201,202,101,211)
 	animation151.pattern1,overlay,2301,0,0,0
 	//demure
 	animation152.interval,bind
-	animation152.pattern0,insert,(201,202,101)
+	animation152.pattern0,insert,(201,202,101,211)
 	animation152.pattern1,overlay,2302,0,0,0
 	//sleepy
 	animation153.interval,bind
-	animation153.pattern0,insert,(201,202)
+	animation153.pattern0,insert,(201,202,211)
 	animation153.pattern1,overlay,2303,0,0,0
 	
-	//hat
+	//notheme 1 axe
+	animation161.interval,bind
+	animation161.pattern0,insert,(201,202,101,211)
+	animation161.pattern1,overlay,2311,0,0,0
+	//no theme 2 ball
+	animation162.interval,bind
+	animation162.pattern0,insert,(201,202,101,211)
+	animation162.pattern1,overlay,2312,0,0,0
+	//no theme 3 fish
+	animation163.interval,bind
+	animation163.pattern0,insert,(201,202,101,211)
+	animation163.pattern01,overlay,2313,0,0,0
+	
+		//hat=====================================================================
 	//advent
 	animation101.interval,bind
 	animation101.pattern0,overlay,2401,0,0,0
@@ -203,7 +351,19 @@ surface2
 	animation103.interval,bind
 	animation103.pattern0,overlay,2403,0,0,0
 	
-	//extra
+	//notheme 1 baseball
+	animation111.interval,bind
+	animation111.pattern0,insert,(213)
+	animation111.pattern1,overlay,2411,0,0,0
+	//notheme 2 beanie
+	animation112.interval,bind
+	animation112.pattern0,overlay,2412,0,0,0
+	//notheme 3 sun hat
+	animation113.interval,bind
+	animation113.pattern0,insert,(151,152,153,161,201,211,213)
+	animation113.pattern1,overlay,2413,0,0,0
+	
+		//extra=====================================================================
 	//advent
 	animation201.interval,bind
 	animation201.pattern0,overlay,2501,0,0,0
@@ -213,6 +373,16 @@ surface2
 	//sleepy 
 	animation203.interval,bind
 	animation203.pattern0,overlay,2503,0,0,0
+	
+	//no theme 1 scarf
+	animation211.interval,bind
+	animation211.pattern0,overlay,2511,0,0,0
+	//no theme 2 wings
+	animation212.interval,bind
+	animation212.pattern0,overlay,2512,0,0,0
+	//no theme 3 sunglasses
+	animation213.interval,bind
+	animation213.pattern0,overlay,2513,0,0,0
 	
 	
 }

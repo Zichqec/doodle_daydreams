@@ -10,6 +10,7 @@ OnTranslate
 	
 	if SHIORI3FW.BalloonName == "Doodles in the Margins"
 	{
+		//Note - we're not using input boxes so I haven't added it here...
 		_talk = REPLACE(_talk,"\b[0]","\b[%(BalloonColor)0]")
 		_talk = REPLACE(_talk,"\b[2]","\b[%(BalloonColor)2]")
 		_talk = REPLACE(_talk,"\b[4]","\b[%(BalloonColor)4]")
@@ -55,7 +56,7 @@ OnKeyPress
 //Happens about 30 seconds after a script ends, by default, to bring them back to normal poses
 OnSurfaceRestore
 {
-	"\1\s[-1]\0\s[%(CurrentPose)]"
+	"\1\s[-1]\0\s[%(CurrentPose)]\![set,alpha,100]"
 }
 
 OnWindowStateRestore
@@ -65,7 +66,7 @@ OnWindowStateRestore
 
 On_homeurl
 {
-	""
+	"https://raw.githubusercontent.com/Zichqec/doodle_daydreams/main/"
 }
 
 emdash

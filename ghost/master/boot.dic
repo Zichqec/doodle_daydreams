@@ -1,10 +1,16 @@
-OnFirstBoot
+OnFirstBoot : all
 {
 	LastTalk = ""
 	CurrentPose = 0
 	BalloonColor = 0
 	
-	"\1\s[-1]\0\s[%(CurrentPose)]Firstboot"
+	"\t\*"
+	"\0\![set,alpha,0]\s[%(CurrentPose)]\1\![set,alpha,0]\s[0]\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]\![set,alpha,100]"
+	
+	"\1\s[0]\0\b[0]They say one man's trash is another man's treasure... I think I would have to agree with that sentiment.\x"
+	"\1\s[2]\0\b[0]No brand or serial number,\w4%(br)no name to be found anywhere... \n\nI wonder where this thing came from?\x"
+	"\1\s[1]\0\b[0]It moves well, though. No scratches either. Seems it's been well taken care of... \n\nOr, perhaps simply never used.\x"
+	"\1\s[0]\0\b[0]Who can really say for certain? It might have lived many different lives... \n\n%(FadeIn)... And been on all sorts of adventures."
 }
 
 OnInitialize
@@ -18,28 +24,58 @@ OnInitialize
 	}
 }
 
+FadeIn : all
+{
+	"\1\![set,alpha,0]\s[%(CurrentPose)]\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]\0\![set,alpha,0]\s[%(CurrentPose)]\1\![set,alpha,100]\0"
+	
+	for _i = 0; _i < 100; _i++
+	{
+		"\_w[10]\![set,alpha,%(_i)]"
+	}
+	"\1\s[-1]\0"
+}
+
+FadeOut : all
+{
+	"\1\![set,alpha,0]\s[%(CurrentPose)]\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]\0\![set,alpha,100]\s[%(CurrentPose)]\1\![set,alpha,100]\0"
+	
+	for _i = 100; _i > 0; _i--
+	{
+		"\_w[10]\![set,alpha,%(_i)]"
+	}
+	"\0\s[-1]"
+}
+
 OnBoot
 {
-	"\1\s[-1]\0\s[%(CurrentPose)]"
+	"\0\![set,alpha,0]\s[%(CurrentPose)]\1\![set,alpha,0]\s[%(CurrentPose)]\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]\![set,alpha,100]\0"
 	--
-	"\f[italic,true]" + BootTalk + "\f[italic,default]"
+	BootTalk
 }
 
 OnClose
 {
 	"\0\s[%(CurrentPose)]"
 	--
-	"\f[italic,true]" + CloseTalk + "\f[italic,default]"
+	CloseTalk
 	--
-	"\w8\w8\-"
+	"\w8\w8\w8\-"
 }
 
 BootTalk : nonoverlap
 {
-	"Hello"
+	"\b[0]A little diversion couldn't%(br)hurt... \n\n%(FadeIn)Let's have some adventures, shall we?"
+	"\b[6]Ah, just where I left it... \n\n%(FadeIn)What shall we do today?"
+	"\b[0]Feeling a bit worn out... \n\n%(FadeIn)But you're always a good way to spark my imagination. Let's play."
+	"\b[6]I could use a break... \n\n%(FadeIn)Maybe you could use a break, too?"
+	"\b[0]You're always here waiting... \n\n%(FadeIn)I hope you don't get lonely."
 }
 
 CloseTalk : nonoverlap
 {
-	"Goodbye"
+	"\b[6]Well... \n\n%(FadeOut)That's probably enough for now. Back to work."
+	"\b[0]Focus, focus... I've got other things I should be doing.\n\n %(FadeOut)More adventures another time."
+	"\b[6]That's enough for now.\n\n %(FadeOut)I have errands to run... but I'll be back later."
+	"\b[0]Ah... It's almost time for me to head out.\n\n %(FadeOut)We'll come back to this another time."
+	"\b[0]Time to get back to work already, huh...?\n\n %(FadeOut)It was fun while it lasted."
 }
