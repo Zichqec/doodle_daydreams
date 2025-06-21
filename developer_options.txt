@@ -1,0 +1,3 @@
+.gitignore,nonar,noupdate
+.gitattributes,nonar,noupdate
+doodles_in_the_margins/,noupdate
