@@ -79,6 +79,7 @@ BootTalk : nonoverlap
 	"\b[0]Feeling a bit worn out... \n\n%(FadeIn)But you're always a good way to spark my imagination. Let's play."
 	"\b[6]I could use a break... \n\n%(FadeIn)Maybe you could use a break, too?"
 	"\b[0]You're always here waiting... \n\n%(FadeIn)I hope you don't get lonely."
+	"\b[6]Time for a break. \n\n%(FadeIn)Did you miss me?"
 }
 
 CloseTalk : nonoverlap
@@ -88,4 +89,5 @@ CloseTalk : nonoverlap
 	"\b[6]That's enough for now.\n\n %(FadeOut)I have errands to run... but I'll be back later."
 	"\b[0]Ah... It's almost time for me to head out.\n\n %(FadeOut)We'll come back to this another time."
 	"\b[0]Time to get back to work already, huh...?\n\n %(FadeOut)It was fun while it lasted."
+	"\b[0]Hm, I should do something else for a while...\n\n %(FadeOut)I'll be back eventually."
 }
