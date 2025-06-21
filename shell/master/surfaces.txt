@@ -84,6 +84,8 @@ surface0
 	//advent
 	animation101.interval,bind
 	animation101.pattern0,overlay,401,0,0,0
+	animation101.pattern2,insert,(213)
+	animation101.pattern3,overlay,601,0,0,0
 	//demure 
 	animation102.interval,bind
 	animation102.pattern0,overlay,402,0,0,0
@@ -124,8 +126,6 @@ surface0
 	//no theme 3 sunglasses
 	animation213.interval,bind
 	animation213.pattern0,overlay,513,0,0,0
-	animation213.pattern1,insert,101
-	animation213.pattern2,overlay,601,0,0,0
 	
 	
 	

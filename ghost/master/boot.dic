@@ -29,6 +29,7 @@ MoveToSakura : all
 {
 	//Yes this has to be doubled to work properly. I do not know why. This has been an issue for me for years.
 	//Oddly, it did not happen on my win11 laptop. Does win11 fix it? Is it a multi-monitor display issue? Is it a problem with my main copy of SSP? I am not sure.
+	//Happens for Galla too, so... hmm! One day I shall report this... one day
 	"\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]"
 	"\![move,--x=0,--y=0,--base=0,--option=ignore-sticky-window]"
 }

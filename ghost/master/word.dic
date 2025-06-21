@@ -1288,6 +1288,13 @@ spreadjuicygossip
 	"spread the juiciest gossip to all your friends"
 	"never lose in a food fight"
 	"never pull your punches in a battle of wits"
+	"always have a rival"
+	"match your shoes to your hats"
+	"have at least three suitors competing for your hand"
+	"have %(aunicorn) as your animal companion"
+	"never tell your age. In fact, completely forget about your age"
+	"drink tea"
+	"learn how to give scathing remarks without breaking form"
 }
 
 softskin
@@ -1299,6 +1306,9 @@ softskin
 	"impeccable tea parties"
 	"moist brownies"
 	"charm and poise"
+	"radiant aura"
+	"melodic voice"
+	"perfectly ironed clothes"
 }
 
 frequentbaths
