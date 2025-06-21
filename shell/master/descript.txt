@@ -4,7 +4,7 @@ type,shell
 name,Default Shell
 craftman,Kipali
 craftmanw,Kipali
-craftmanurl,
+craftmanurl,https://ako-kipali.tumblr.com/ghost-stuff
 
 seriko.alignmenttodesktop,free
 seriko.use_self_alpha,1
