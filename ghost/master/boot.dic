@@ -6,6 +6,7 @@ OnFirstBoot : all
 	
 	"\t\*"
 	"\0\![set,alpha,0]\s[%(CurrentPose)]\1\![set,alpha,0]\s[0]%(MoveToSakura)\![set,alpha,100]"
+	"\0\![bind,Top,Pirate Shirt,1]\![bind,Bottom,Adventure Boots,1]\![bind,Handheld,Sword,1]"
 	
 	"\1\s[0]\0\b[0]They say one man's trash is another man's treasure... I think I would have to agree with that sentiment.\x"
 	"\1\s[2]\0\b[0]No brand or serial number,\w4%(br)no name to be found anywhere... \n\nI wonder where this thing came from?\x"
