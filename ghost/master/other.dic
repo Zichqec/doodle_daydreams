@@ -190,6 +190,5 @@ On_sakura.portalsites
 //These are the websites linked in the second option of the sakura's right click menu. Same as above
 portalsites_sakura : array
 {
-	"Another link label";	"https://link.example.com/link/to/whatever/here/again/"
-	"A third link label";	"https://link.example.com/link/to/whatever/a/third/time/you/can/add/as/many/as/you/want/"
+	"Leave a Review";	"https://docs.google.com/forms/d/e/1FAIpQLScEv_9zIngEQl3paPgLBfsdSTzocXiw1V7r4MZWDgGBmkFwGw/viewform"
 }
