@@ -1,5 +1,6 @@
-﻿Made for Ghost Jam 2025
-By:
+﻿A poseable doll to dress up and daydream with. What worlds will your mind take you to...?
+
+Made for Ghost Jam 2025, by:
 
 Galla: https://gallathegalla.github.io/gtg-ghosts/
 Kipali: https://ako-kipali.tumblr.com/ghost-stuff
