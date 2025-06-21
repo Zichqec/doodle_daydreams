@@ -55,7 +55,7 @@ OnKeyPress
 //Happens about 30 seconds after a script ends, by default, to bring them back to normal poses
 OnSurfaceRestore
 {
-	"\1\s[-1]\0\s[%(CurrentPose)]"
+	"\1\s[-1]\0\s[%(CurrentPose)]\![set,alpha,100]"
 }
 
 OnWindowStateRestore
