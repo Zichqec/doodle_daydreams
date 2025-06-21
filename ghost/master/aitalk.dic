@@ -101,6 +101,39 @@ DemureTalk : nonoverlap_pool
 	"\b[0]When time allows, I enjoy riding my %(steed) through %(thecourtyard)."
 	"\b[0]I think I deserve to spontaneously develop magical powers without putting any work into studying magic or spells."
 	"\b[0]Maybe if I have a whirlwind romance with %(avampire), I can become one, too.\n\n That would be fun."
+	"\b[4]Have you ever wished you could go on a romantic date with the person in the mirror?\n\n I have. I find them to be quite charming. However,\w4%(br)each time I try to invite them, we always end up speaking over each other... How embarrassing."
+	"\b[0]I always bring my %(paperfan) to a soirée. It wouldn't do to be caught without in an emergency."
+	"\b[6]This %(blendoftea) is simply delightful."
+	"\b[6]Always be 3 steps ahead of your rival, even if you don't have one."
+	"\b[0]The first rule of ladyhood is to be proper in everything you do.\n\n The second rule is to %(spreadjuicygossip)."
+	"\b[4]I wish to improve my understanding of the language of flowers. However, I have yet to find a native speaker.\n\n Do tell me if you become acquainted with anyone who would assist in such an endeavor, will you?"
+	"\b[0]The secret to my %(softskin)?\n\n %(Capitalize(frequentbaths))."
+	"\b[0]Do tell me, what was it the %(king)'s %(cousins) said about me at the last ball? I saw you were speaking with them."
+	"\b[0]It is not enough to have the freshest flowers in your bouquet. One must learn how to properly hold them for maximum effect."
+	"\b[2]I found %(arose) set on the mat outside my door today. I'm told one of the %(king)'s %(cousins) left it there.\n\n This can mean only one thing... %(Capitalize(weredestinedtobe))!"
+	"\b[2]I try to spend time on the balcony every day, looking out at the town.\n\n You never know when your soulmate will come riding through the streets to sweep you off your feet."
+	"\b[2]You should %(takealongbubblebath) now and then. It's good for your health.\n\n The more frequently you do it, the more profound the effects, or so I am told... "
+	"\b[0]I like sitting alone on my balcony sometimes. It's just me, my tea, and the knowledge that my rival is looking on jealously from somewhere... "
+	"\b[6]Ah, to be %(ahouse)... It seems like such a simple life." //Didn't realize "me" is in that word group lol
+	"\b[2]I heard one of my %(cousins) hasn't been feeling well lately...\n\n I think I will invite myself over with tea and cookies. That is sure to cheer them up."
+	
+	"\b[6]Is there anything in life more important than %(styleandgrace)?"
+	"\b[6]Perhaps I'll go to the lake later and %(feedtheducks)."
+	"\b[6]I could never %(beseenbarefoot). I think I would perish on the spot."
+	"\b[6]The floral aroma here is lovely, isn't it? I think so."
+	"\b[0]Do you ever walk through the %(king)'s gardens? I once found %(arose) there.\n\n It fit just perfectly on my bookshelf."
+	
+	"\b[6]I think time spent %(inthewoods) is never wasted."
+	"\b[6]Hm? What time is it?\n\n Tea time, always."
+	"\b[2]I see you are enjoying your tea. Surely you must wonder where I acquired such an exquisite blend, hmm?\n\n I'm sorry, but it is a closely-guarded family secret. You shan't hear it from me!"
+	"\b[2]A great deal of thought and effort goes into everything I do, from the clothes that I wear to the way that I sit.\n\n Meanwhile, I am certain my rival has no such thoughts in her head... What a coward!"
+	"\b[0]Perhaps I will acquire a miniature %(steed) for my collection... I could display it with the other miniatures on the bookshelf. Wouldn't that be just darling?"
+	
+	"\b[0]I think I will take a walk in the woods... Ah, but it is nearly tea time again. Perhaps I will walk in the woods with my tea?"
+	"\b[2]My schedule has been quite busy lately with so many parties and social events to attend.\n\n I have to work hard to get enough beauty sleep every night!"
+	"\b[0]I think I will get %(anewscarf). I have to keep up with this year's fashions, after all."
+	"\b[0]Walks in the autumn woods are lovely and full of color. But do take care to avoid leaf piles! There are all sorts of bugs in there that you might squash."
+	"\b[2]If anyone criticizes you, just remember this one simple trick: Don't listen to a single word they say!\n\n Anyone who thinks \f[bold,1]you\f[bold,default] have flaws can't possibly be worth listening to."
 }
 
 SleepyTalk : nonoverlap_pool

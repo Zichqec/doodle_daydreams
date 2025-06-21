@@ -1148,3 +1148,147 @@ leeches
 	"worms that could signal you've been turned into a worm person"
 	"fur which could indicate you've been turned into a werewolf"
 }
+
+paperfan
+{
+	"paper fan"
+	"umbrella"
+	"powder brush"
+	"own toilet paper" //?????
+	"gloves"
+	"toothbrush"
+	"scissors"
+	"love potion"
+	"nail clippers"
+	"handkerchief"
+	"ornate dagger"
+	"fists"
+	"etiquette"
+	"unicorn"
+	"little bag of snacks"
+}
+
+blendoftea
+{
+	"blend of tea"
+	"selection of desserts"
+	"crumpet"
+	"tablecloth"
+	"dress"
+	"color"
+	"scented candle"
+	"yarn"
+	"new sewing kit"
+	"rendition of my family's crest"
+	"music"
+	"poem"
+}
+
+spreadjuicygossip
+{
+	"spread the juciest gossip to all your friends"
+	"never lose in a food fight"
+	"never pull your punches in a battle of wits"
+}
+
+softskin
+{
+	"soft skin"
+	"luscious eyelashes"
+	"soft and silky smooth hair"
+	"incredible literary success"
+	"impeccable tea parties"
+	"moist brownies"
+	"charm and poise"
+}
+
+frequentbaths
+{
+	"long and frequent baths in mineral water"
+	"frequent tea breaks"
+	"daily affirmations in the mirror"
+	"eggs"
+	"store-bought is fine"
+	"careful airbrushing"
+	"a few hours of gentle moonlight regularly"
+}
+
+weredestinedtobe
+{
+	"we're destined to be married"
+	"I have a new rival"
+	"they're spreading rumors about me"
+	"they're jealous of me"
+	"I've been invited to a secret tea party"
+}
+
+takealongbubblebath
+{
+	"take a long bubble bath"
+	"buy a new sword"
+	"put extra sugar in your tea"
+	"sleep in for several hours"
+	"take a walk through the garden"
+	"toss a coin in the wishing well"
+	"host a soirée"
+	"sit amongst nature and let your mind wander"
+	"write a poem"
+	"sing with the birds"
+	"pet a sleepy kitten"
+}
+
+styleandgrace
+{
+	"style and grace"
+	"unicorns"
+	"bees"
+	"gardening"
+	"social connections"
+	"tea"
+	"alone time"
+	"the smell of fresh roses"
+	"a cozy blanket"
+	"bubble baths"
+	"being a lady"
+	"one-upping your rival"
+}
+
+feedtheducks
+{
+	"feed the ducks"
+	"wade in the shallows"
+	"marvel at the fish"
+	"sit on a bench"
+	"wonder about the nature of life"
+	"plan my next tea party"
+	"wait for my rival to arrive so we can exchange dirty looks"
+	"watch the fountain"
+}
+
+beseenbarefoot
+{
+	"be seen barefoot"
+	"apologize to my rival"
+	"show up late to a party"
+	"be seen with a spot on my dress"
+}
+
+inthewoods
+{
+	"in the woods"
+	"in the castle courtyard"
+	"in the fields outside the castle walls"
+	"in the dungeons looking at the prisoners"
+	"in the ball room"
+	"on the beach"
+	"on the balcony"
+}
+
+anewscarf
+{
+	"a new scarf"
+	"a new set of mittens"
+	"a new hat"
+	"a new set of high heels"
+	"a new skirt"
+}
