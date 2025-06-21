@@ -21,6 +21,9 @@ sakura.bindgroup50.name,Top,Sports Bra
 sakura.bindgroup51.name,Top,Pirate Shirt
 sakura.bindgroup52.name,Top,Poofy Shirt
 sakura.bindgroup53.name,Top,PJ Top
+sakura.bindgroup61.name,Top,Flannel Shirt
+sakura.bindgroup62.name,Top,T-Shirt
+sakura.bindgroup63.name,Top,Hawaiian Shirt
 
 //Bottoms
 sakura.bindgroup1.default,1
@@ -29,19 +32,30 @@ sakura.bindgroup0.name,Bottom,Boy Shorts
 sakura.bindgroup1.name,Bottom,Adventure Boots
 sakura.bindgroup2.name,Bottom,Poofy Skirt
 sakura.bindgroup3.name,Bottom,PJ Bottoms
+sakura.bindgroup11.name,Bottom,Jeans
+sakura.bindgroup12.name,Bottom,Skirt
+sakura.bindgroup13.name,Bottom,Trunks
 
 //Hat
 sakura.bindgroup101.name,Hat,Helmet
 sakura.bindgroup102.name,Hat,Tiara
 sakura.bindgroup103.name,Hat,PJ Hat
+sakura.bindgroup111.name,Hat,Baseball Cap
+sakura.bindgroup112.name,Hat,Beanie
+sakura.bindgroup113.name,Hat,Sun Hat
 
 //Hand
-sakura.bindgroup151.default,1
 sakura.bindgroup151.name,Handheld,Sword
 sakura.bindgroup152.name,Handheld,Bouquet
 sakura.bindgroup153.name,Handheld,Pillow
+sakura.bindgroup161.name,Handheld,Axe
+sakura.bindgroup162.name,Handheld,Ball
+sakura.bindgroup163.name,Handheld,Fish
 
 //Extra
 sakura.bindgroup201.name,Extra,Pauldron
 sakura.bindgroup202.name,Extra,Sash
 sakura.bindgroup203.name,Extra,Blanket
+sakura.bindgroup211.name,Extra,Scarf
+sakura.bindgroup212.name,Extra,Wings
+sakura.bindgroup213.name,Extra,Sunglasses
