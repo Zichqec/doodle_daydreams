@@ -10,7 +10,7 @@ craftmanw,Galla & Kipali & Zichqec
 craftmanurl,https://github.com/Zichqec/doodle_daydreams
 
 sakura.name,Foundina Thriftstore
-kero.name,
+kero.name,-
 
 sstp.allowunspecifiedsend,0
 

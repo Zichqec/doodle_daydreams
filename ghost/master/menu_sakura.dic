@@ -1,9 +1,7 @@
 OnMouseDoubleClick
 {
-	if reference5 == 0 //left click
-	{
-		OnSakuraMenu
-	}
+	//left click
+	if reference5 == 0; OnSakuraMenu
 }
 
 OnSakuraMenu : all
@@ -14,7 +12,7 @@ OnSakuraMenu : all
 	else; "\b[2]"
 	
 	"\![*]\q[Daydream,OnAiTalk]  "
-	switch LastTalk == "" //Uses top option if there is a dialogue to repeat
+	switch LastTalk == ""
 	{
 		"\![*]\__q[OnLastTalk]Remember\__q"
 		"\![*]\f[color,disable]Remember\f[color,default]"
@@ -110,7 +108,7 @@ OnChangePose
 
 OnRandomChange : all
 {
-	"\![lock,repaint]" //This doesn't quite work how i want since it only applies to animations and not surfaces...
+	"\![lock,repaint]" //This doesn't quite work how i want since it only applies to animations and not surfaces... but it helps with the two different passes of bind commands, at least
 	if reference0 == "pose" || reference0 == "both"
 	{
 		_num = CurrentPose
