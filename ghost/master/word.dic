@@ -432,7 +432,7 @@ king
 {
 	"king"
 	"queen"
-	"monarchy"
+	"monarch"
 	"prince"
 	"princess"
 	"emperor"
@@ -1186,7 +1186,7 @@ blendoftea
 
 spreadjuicygossip
 {
-	"spread the juciest gossip to all your friends"
+	"spread the juiciest gossip to all your friends"
 	"never lose in a food fight"
 	"never pull your punches in a battle of wits"
 }
@@ -1271,6 +1271,12 @@ beseenbarefoot
 	"apologize to my rival"
 	"show up late to a party"
 	"be seen with a spot on my dress"
+	"be seen without a proper crinoline"
+	"serve tea without scrumptious cookies"
+	"be engaged to a servant"
+	"mix my metals"
+	"wear socks with sandals"
+	"forget to do my eyelashes"
 }
 
 inthewoods
@@ -1291,4 +1297,9 @@ anewscarf
 	"a new hat"
 	"a new set of high heels"
 	"a new skirt"
+	"a new pannier"
+	"a new bustle"
+	"a new jewelry set"
+	"a new dress"
+	"a new tiara"
 }

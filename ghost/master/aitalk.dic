@@ -116,19 +116,16 @@ DemureTalk : nonoverlap_pool
 	"\b[0]I like sitting alone on my balcony sometimes. It's just me, my tea, and the knowledge that my rival is looking on jealously from somewhere... "
 	"\b[6]Ah, to be %(ahouse)... It seems like such a simple life." //Didn't realize "me" is in that word group lol
 	"\b[2]I heard one of my %(cousins) hasn't been feeling well lately...\n\n I think I will invite myself over with tea and cookies. That is sure to cheer them up."
-	
 	"\b[6]Is there anything in life more important than %(styleandgrace)?"
 	"\b[6]Perhaps I'll go to the lake later and %(feedtheducks)."
 	"\b[6]I could never %(beseenbarefoot). I think I would perish on the spot."
 	"\b[6]The floral aroma here is lovely, isn't it? I think so."
 	"\b[0]Do you ever walk through the %(king)'s gardens? I once found %(arose) there.\n\n It fit just perfectly on my bookshelf."
-	
 	"\b[6]I think time spent %(inthewoods) is never wasted."
 	"\b[6]Hm? What time is it?\n\n Tea time, always."
 	"\b[2]I see you are enjoying your tea. Surely you must wonder where I acquired such an exquisite blend, hmm?\n\n I'm sorry, but it is a closely-guarded family secret. You shan't hear it from me!"
 	"\b[2]A great deal of thought and effort goes into everything I do, from the clothes that I wear to the way that I sit.\n\n Meanwhile, I am certain my rival has no such thoughts in her head... What a coward!"
 	"\b[0]Perhaps I will acquire a miniature %(steed) for my collection... I could display it with the other miniatures on the bookshelf. Wouldn't that be just darling?"
-	
 	"\b[0]I think I will take a walk in the woods... Ah, but it is nearly tea time again. Perhaps I will walk in the woods with my tea?"
 	"\b[2]My schedule has been quite busy lately with so many parties and social events to attend.\n\n I have to work hard to get enough beauty sleep every night!"
 	"\b[0]I think I will get %(anewscarf). I have to keep up with this year's fashions, after all."
