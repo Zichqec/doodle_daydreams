@@ -1,0 +1,11 @@
+anchor.font.color.r,000
+anchor.font.color.g,204
+anchor.font.color.b,197
+
+cursor.font.color.r,000
+cursor.font.color.g,204
+cursor.font.color.b,197
+
+onlinemarker.filename,onlinemenu
+onlinemarker.x,-17
+onlinemarker.y,-214

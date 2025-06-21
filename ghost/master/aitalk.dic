@@ -62,6 +62,20 @@ DemureTalk : nonoverlap_pool
 	"\b[2]I invited a friend over for tea, but I don't think they'll be joining me. \n\nRumor has it that they %(died)... Perhaps next week will be better."
 	"\b[4]At the last ball I attended, there was quite the spectacle.\n\n Someone %(felldownthestairs) and %(brokeavase). But that's not all! It turns out, this someone was the %(king), and all of their %(cousins) saw it happen. Imagine!"
 	"\b[0]I would never brag about my %(socialacuity)... but I might mention my %(competitivebouquettossing)."
+	"\b[0]If you think your tea party is a bore, there is nothing %(acake) and some %(socialacuity) can't fix!"
+	"\b[0]A friend of mine recently met a cursed %(king).\n\n The first thing they said when meeting them was '%(meow)'. Isn't that so dreamy?"
+	"\b[0]I will have to meet with some %(cousins) to do %(embroidery) together. I think I will make %(aunicorn) my main motif."
+	"\b[0]You can resolve a surprising variety of issues with %(abucket).\n\n Trust me."
+	"\b[0]Do you know what's worse than being a criminal?\n\n %(Capitalize(beingboring))."
+	"\b[6]A proper lady doesn't %(sleepforover24hours)."
+	"\b[0]Careful who you tell about %(yourfavoritecolor). You never know how it might be used against you."
+	"\b[6]The best way to drink tea is %(fromacup)."
+	"\b[0]During my morning constitutional, I found %(arose). I think I'll put it on my vanity table."
+	"\b[2]I was kidnapped by a dragon once.\n\n %(wegotmarried)"
+	"\b[6]Sometimes, I do wish that instead of \f[bold,true]having\f[bold,default] a rival, I could \f[bold,true]be\f[bold,default] the rival."
+	"\b[0]When time allows, I enjoy riding my %(steed) through %(thecourtyard)."
+	"\b[0]I think I deserve to spontaneously develop magical powers without putting any work into studying magic or spells."
+	"\b[0]Maybe if I have a whirlwind romance with %(avampire), I can become one, too.\n\n That would be fun."
 }
 
 SleepyTalk : nonoverlap_pool

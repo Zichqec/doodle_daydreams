@@ -3,3 +3,5 @@ type,ghost
 
 name,Doodle Daydreams
 directory,doodle_daydreams_gkz
+
+balloon.directory,doodles_in_the_margins

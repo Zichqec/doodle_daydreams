@@ -1,0 +1,7 @@
+anchor.font.color.r,229
+anchor.font.color.g,164
+anchor.font.color.b,000
+
+cursor.font.color.r,229
+cursor.font.color.g,164
+cursor.font.color.b,000

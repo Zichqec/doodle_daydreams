@@ -1,0 +1,103 @@
+charset,UTF-8
+type,balloon
+use_self_alpha,1
+use_input_alpha,1
+//overlay_outside_balloon,1
+
+
+//——— Basic information ———
+name,Doodles in the Margins
+craftman,Galla
+craftmanw,Galla
+craftmanurl,https://GallaTheGalla.github.io/gtg-ghosts/
+homeurl,https://raw.githubusercontent.com/GallaTheGalla/doodles_in_the_margins/main/
+
+
+//——— Display area ———
+origin.x,0
+origin.y,0
+
+validrect.left,13
+validrect.top,18
+validrect.right,-14
+validrect.bottom,-14
+
+wordwrappoint.x,-28
+
+
+//——— Font ———
+font.name,dadha___.ttf
+font.height,20
+
+font.color.r,000
+font.color.g,000
+font.color.b,000
+
+anchor.font.color.r,029
+anchor.font.color.g,000
+anchor.font.color.b,255
+
+cursor.font.color.r,029
+cursor.font.color.g,000
+cursor.font.color.b,255
+
+cursor.style,underline
+
+disable.font.color.r,102
+disable.font.color.g,102
+disable.font.color.b,102
+
+disable.font.strike,1
+
+
+//——— Arrows ———
+arrow0.x,-18
+arrow0.y,20
+
+arrow1.x,-18
+arrow1.y,-26
+
+
+//——— Online marker ———
+onlinemarker.x,-17
+onlinemarker.y,-152
+
+onlinemarker.interval,200
+
+
+//——— SSTP ———
+sstpmarker.x,6
+sstpmarker.y,-12
+
+sstpmessage.font.name,Calibri
+sstpmessage.font.height,12
+
+sstpmessage.x,17
+sstpmessage.xr,-20
+sstpmessage.y,-14
+
+sstpmessage.font.color.r,000
+sstpmessage.font.color.g,000
+sstpmessage.font.color.b,000
+
+
+//——— Number ———
+number.font.name,Calibri
+number.font.height,12
+
+number.xr,-20
+number.y,-14
+
+number.font.color.r,000
+number.font.color.g,000
+number.font.color.b,000
+
+
+//——— Input box ———
+communicatebox.x,11
+communicatebox.y,19
+
+communicatebox.width,361
+communicatebox.height,25
+
+communicatebox.font.name,Calibri
