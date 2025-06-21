@@ -10,6 +10,7 @@ OnTranslate
 	
 	if SHIORI3FW.BalloonName == "Doodles in the Margins"
 	{
+		//Note - we're not using input boxes so I haven't added it here...
 		_talk = REPLACE(_talk,"\b[0]","\b[%(BalloonColor)0]")
 		_talk = REPLACE(_talk,"\b[2]","\b[%(BalloonColor)2]")
 		_talk = REPLACE(_talk,"\b[4]","\b[%(BalloonColor)4]")
