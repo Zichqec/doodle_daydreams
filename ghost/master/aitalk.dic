@@ -31,7 +31,7 @@ AdventurerTalk : nonoverlap_pool
 	"\b[0]Taking care of my weapon is a top priority, whatever that weapon may be. You cannot %(slayademon) with a %(rustedsword)!"
 	"\b[0]Every day is the chance to begin a new story. Mine will be %(legendary)!"
 	"\b[0]You can never be too prepared. I train every day to keep my body strong, my mind sharp, and my outfits on point."
-	"\b[2]After a tough battle, it's important to take time to heal and get back to your best. It can be challenging when it takes longer than I would like... but patience is a requirement for success!"
+	"\b[2]After a tough battle, it's important to take time to heal and get back to your best. It can be challenging when it takes longer than I would like... but patience is a requirement for success!" //TODO could use some br here
 	"\b[4]When fighting a dragon, the most significant thing to keep in mind is that they are intelligent creatures. Whether%(br)they're predators or not, they've managed to survive and grow long enough to be worthy of a quest. This is not done on strength alone! They cannot be underestimated."
 	"\b[2]An adventurer always needs to be on guard. You think that's %(achest)?\n\n Wrong! It's a mimic, and it just %(killedyou)."
 	"\b[4]Bad breath can be deadly on the road. Dire boars don't even know what a toothbrush is.\n\n Imagine rolling over at night and getting hot, stinky breath all over your face. You'd be done for! Dead on the spot! It happened to me once."
@@ -72,7 +72,7 @@ AdventurerTalk : nonoverlap_pool
 	"\b[2]If you're going to forage for food, make sure to spend time learning about plants!\n\n Many tasty looking berries and mushrooms are deadly within days of consumption... "
 	"\b[2]Watch out for spider webs! A small web on its own is harmless, but if you see large webs or many webs gathered together, proceed with caution!"
 	"\b[0]Always bring more food than you think you'll need. You never know when you might get stuck in a cave for a few days longer than planned!"
-	"\b[0]A good way to trick your enemies in to letting their guard down is to %(pretendyoureafraid)!"
+	"\b[0]A good way to trick your enemies into letting their guard down is to %(pretendyoureafraid)!"
 	"\b[6]Get to know your equipment and how to maintain it for best results!"
 	"\b[2]Make sure to regularly check your skin for %(leeches)!\n\n That includes taking your boots off and checking your feet!"
 	"\b[6]The %(king) is sure to give us a handsome reward!"
