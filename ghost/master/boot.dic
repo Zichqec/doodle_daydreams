@@ -42,6 +42,7 @@ FadeIn : all
 	{
 		"\_w[10]\![set,alpha,%(_i)]"
 	}
+	"\_w[10]\![set,alpha,100]"
 	"\1\s[-1]\0"
 }
 
@@ -53,6 +54,7 @@ FadeOut : all
 	{
 		"\_w[10]\![set,alpha,%(_i)]"
 	}
+	"\_w[10]\![set,alpha,0]"
 	"\0\s[-1]"
 }
 

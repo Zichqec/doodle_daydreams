@@ -621,7 +621,7 @@ socialacuity
 	"perfect memory of every name and face I meet"
 	"psychic powers"
 	"curse"
-	"magic piggybank that always has enough coin for %(asnack), no matter how much I spend"
+	"magic piggybank that always has enough coin for %(asnack), no matter how much I spend" //TODO missing word group
 	"bragging abilities"
 	"large number of enemies that want me dead"
 }
@@ -941,7 +941,7 @@ scoopsoficecream
 	"congealed unicorn dust"
 	"where the dragons live"
 	"not, water can't fly"
-	"not, if water was in the sky it just would rain down"
+	"not, if water was in the sky it would just rain down"
 	"some kind of giant pastry that humanity has yet to discover"
 	"alien outposts that they use to monitor us"
 }
