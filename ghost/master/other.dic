@@ -64,6 +64,11 @@ OnWindowStateRestore
 	OnSurfaceRestore
 }
 
+ghostver
+{
+	"v1.0.1"
+}
+
 On_homeurl
 {
 	"https://raw.githubusercontent.com/Zichqec/doodle_daydreams/main/"
